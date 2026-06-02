@@ -1,164 +1,403 @@
 {
-  "generated_at": "2026-06-02T10:53:06+00:00",
-  "app_id": "6a1e989b48bd6000dbb5b58f",
-  "items": [
+  "generatedAt": "2026-06-02T11:56:50.450198+00:00",
+  "mode": "readonly_public_sources_only",
+  "safetyBoundary": "No gas / no signature / no submit",
+  "closedLoop": [
+    "public discovery",
+    "risk classification",
+    "local candidate queue",
+    "human confirmation",
+    "account/wallet/social execution only after confirmation"
+  ],
+  "summary": {
+    "auto_track_zero_cost": 1,
+    "manual_confirmation_required": 2,
+    "hard_stop": 3
+  },
+  "results": [
     {
-      "id": "base_dashboard",
-      "title": "Base Dashboard",
-      "description": "Builder Rewards / app attribution surface",
+      "id": "BQ-001",
+      "name": "Base Dashboard",
       "url": "https://dashboard.base.org/",
-      "decision": "manual_confirmation_required",
+      "type": "app_directory",
+      "upside": "Builder Rewards / app attribution surface",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "classification": "manual_confirmation_required",
+      "classificationLabel": "确认后继续：账号/钱包/社交/注册边界",
       "signals": [
-        "public_readonly:builder",
-        "public_readonly:app",
-        "hard_stop:reward",
-        "hard_stop:rewards"
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "base"
+          ]
+        }
+      ],
+      "nextSafeAction": "Monitor public app/rewards signals; stop before Dashboard Register submit.",
+      "stopBefore": [
+        "wallet connection",
+        "message signature",
+        "transaction/gas",
+        "claim/payout/KYC",
+        "social post/follow/join",
+        "personal information submit",
+        "final Dashboard Register submit"
       ],
       "evidence": [
-        "No strong signal extracted."
+        "Base Dashboard"
       ]
     },
     {
-      "id": "base_builder_codes",
-      "title": "Base Builder Codes",
-      "description": "App attribution and potential rewards documentation",
-      "url": "https://docs.base.org/apps/builder-codes/builder-codes",
-      "decision": "hard_stop",
-      "signals": [
-        "public_readonly:docs",
-        "public_readonly:documentation",
-        "public_readonly:leaderboard",
-        "public_readonly:public",
-        "public_readonly:builder",
-        "public_readonly:app",
-        "confirmation:wallet",
-        "confirmation:account",
-        "confirmation:register",
-        "hard_stop:gas",
-        "hard_stop:transaction",
-        "hard_stop:transactions",
-        "hard_stop:payout",
-        "hard_stop:reward"
-      ],
-      "evidence": [
-        "s On this page What Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC-8021? Additional Resources Give Feedback! Builder",
-        "es Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC-8021? Additional Resources Give Feedback! Builder Codes Base Builder Codes Copy page Attribute onchain activity to your app, wallet or agent with Builder Codes. Copy page Documentation Index Fetch",
-        "odes using Wagmi or Viem For Wallet Developers Implement the dataSuffix capability For Agent Developers Attribute your AI agent’s transactions via the API ​ Benefits Rewards: If your app drives transactions, Builder Codes let Base automatically attribute that usage back to you, unlocking rewards as the program expands. Analytics: Reliably track onchain usage, user acquisition, and conversion metri",
-        "“abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata includes more details about the app including its name and site. Get your Builder Code by registering on base.dev . You can find your code under Settings → Builder Code",
-        "t Started Chain Account Apps Agents Quickstart Build an app on Base Guides Add notifications Migrate to a Standard Web App Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page What Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder",
-        "nsactions section, attribution counts increment when transactions with your code are processed 2. Use a Block Explorer (Basescan, Etherscan, etc.) Find your transaction hash View the input data field Verify the last 16 bytes are the 8021 repeating Decode the suffix to confirm your Builder Code is present 3. Open Source Tools Use the Builder Code Validation tool Select transaction type Enter the tr"
-      ]
-    },
-    {
-      "id": "base_app_developers_builder_codes",
-      "title": "Builder Codes for App Developers",
-      "description": "How registered apps get transaction attribution",
-      "url": "https://docs.base.org/apps/builder-codes/app-developers",
-      "decision": "hard_stop",
-      "signals": [
-        "public_readonly:docs",
-        "public_readonly:documentation",
-        "public_readonly:builder",
-        "public_readonly:app",
-        "confirmation:wallet",
-        "confirmation:account",
-        "confirmation:connect",
-        "confirmation:register",
-        "hard_stop:transaction",
-        "hard_stop:transactions",
-        "hard_stop:reward",
-        "hard_stop:rewards",
-        "hard_stop:eth"
-      ],
-      "evidence": [
-        "n on Base Integrating Outside the Base App Quick Setup with Wagmi Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Transaction Approach Verify Attribution Builder Codes Builder Codes for App Developers Copy page Integrate Builder Codes into your app using Wagmi or Viem to attribute onchain activity. Copy page Documentation Index Fetch the complete documentation index at: https://doc",
-        "her. ​ Automatic Attribution on Base Once your app is registered on base.dev , the Base App will auto-append your Builder Code to transactions its users make in your app (e.g. via your app, or the Base App’s browser). This powers your onchain analytics in base.dev and qualifies you for potential future rewards. ​ Integrating Outside the Base App If users also access your app on the web or through",
-        "t Started Chain Account Apps Agents Quickstart Build an app on Base Guides Add notifications Migrate to a Standard Web App Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quick Setup with Wagmi Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Tran",
-        "ts. This works with both useSendTransaction and useSendCalls . App.tsx import { useSendTransaction } from \"wagmi\" ; import { parseEther } from \"viem\" ; function SendButton () { const { sendTransaction } = useSendTransaction (); return ( < button onClick = { () => sendTransaction ({ to: \"0x70997970c51812dc3a010c7d01b50e0d17dc79c8\" , value: parseEther ( \"0.01\" ), }) } > Send ETH </ button > ); } ​ Q",
-        "ase Guides Add notifications Migrate to a Standard Web App Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quick Setup with Wagmi Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Transaction Approach Verify Attribution Builder Codes Builder Codes",
-        "itHub Support Base Dashboard Base Dashboard Search... Navigation Builder Codes Builder Codes for App Developers Get Started Chain Account Apps Agents Quickstart Build an app on Base Guides Add notifications Migrate to a Standard Web App Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integratin"
-      ]
-    },
-    {
-      "id": "base_learn",
-      "title": "Base Learning Resources",
-      "description": "Public docs and learning resources",
-      "url": "https://docs.base.org/get-started/learning-resources",
-      "decision": "auto_track_zero_cost",
-      "signals": [
-        "public_readonly:docs",
-        "public_readonly:documentation",
-        "public_readonly:learn",
-        "public_readonly:public",
-        "public_readonly:builder",
-        "public_readonly:app",
-        "confirmation:account",
-        "hard_stop:faucet",
-        "hard_stop:eth"
-      ],
-      "evidence": [
-        "ort Base Dashboard Base Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program Country Leads & Ambassadors Build with AI MCP Server Static Do",
-        "On this page Archived Content Coming Soon Quickstart Learning Resources Copy page Find educational content for learning Solidity, Ethereum, and blockchain development Copy page Documentation Index Fetch the complete documentation index at: https://docs.base.org/llms.txt Use this file to discover all available pages before exploring further. ​ Archived Content All previous Learn content, including",
-        "e Search... ⌘ K GitHub Support Base Dashboard Base Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program Country Leads & Ambassadors Build w",
-        "Builder Support Get Funded Base Services Hub Base Mentorship Program Country Leads & Ambassadors Build with AI MCP Server Static Docs Files Prompt Library Developer Tools Block Explorers Data Indexers On this page Archived Content Coming Soon Quickstart Learning Resources Copy page Find educational content for learning Solidity, Ethereum, and blockchain development Copy page Documentation Index F",
-        "Learning Resources - Base Documentation Skip to main content Base Documentation home page Search... ⌘ K GitHub Support Base Dashboard Base Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Res",
-        "Learning Resources - Base Documentation Skip to main content Base Documentation home page Search... ⌘ K GitHub Support Base Dashboard Base Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introd"
-      ]
-    },
-    {
-      "id": "base_faucets",
-      "title": "Base Network Faucets",
-      "description": "Testnet funds; useful for learning but requires wallet interaction",
+      "id": "BQ-002",
+      "name": "Base Network Faucets",
       "url": "https://docs.base.org/base-chain/network-information/network-faucets",
-      "decision": "hard_stop",
+      "type": "testnet_faucet_index",
+      "upside": "Free testnet activity preparation",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "classification": "hard_stop",
+      "classificationLabel": "硬停止：签名/资金/gas/收益/KYC",
       "signals": [
-        "public_readonly:docs",
-        "public_readonly:documentation",
-        "public_readonly:learn",
-        "public_readonly:app",
-        "confirmation:wallet",
-        "confirmation:account",
-        "confirmation:login",
-        "confirmation:connect",
-        "confirmation:social",
-        "confirmation:registration",
-        "hard_stop:transaction",
-        "hard_stop:transactions",
-        "hard_stop:claim",
-        "hard_stop:funds"
+        {
+          "level": "hard_stop",
+          "matched": [
+            "deposit",
+            "withdraw",
+            "bridge",
+            "swap",
+            "mint",
+            "transaction",
+            "transactions",
+            "gas",
+            "claim",
+            "payment",
+            "lp"
+          ]
+        },
+        {
+          "level": "manual_confirmation_required",
+          "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "signature",
+            "login",
+            "discord",
+            "x.com",
+            "github",
+            "email",
+            "registration",
+            "account",
+            "profile"
+          ]
+        },
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "docs",
+            "documentation",
+            "learn",
+            "learning",
+            "guide",
+            "quickstart",
+            "base",
+            "testnet"
+          ]
+        }
+      ],
+      "nextSafeAction": "Identify faucet options; stop before wallet address submission, login, claim, or signature.",
+      "stopBefore": [
+        "wallet connection",
+        "message signature",
+        "transaction/gas",
+        "claim/payout/KYC",
+        "social post/follow/join",
+        "personal information submit",
+        "final Dashboard Register submit"
       ],
       "evidence": [
-        "art Why Base? Deploy on Base Connecting to Base Base-Solana Bridge Network Information Base Contracts Network Fees Block Building Transaction Finality Differences: Ethereum & Base Troubleshooting Transactions Configuration Changelog Network Faucets Flashblocks Overview App Integration Architecture FAQ Node Operators Run a Node Performance Tuning Snapshots Node Providers Troubleshooting API Referen",
-        "Network Information Base Contracts Network Fees Block Building Transaction Finality Differences: Ethereum & Base Troubleshooting Transactions Configuration Changelog Network Faucets Flashblocks Overview App Integration Architecture FAQ Node Operators Run a Node Performance Tuning Snapshots Node Providers Troubleshooting API Reference Overview Ethereum JSON-RPC API Flashblocks API Debug API Protoc",
-        "cbBTC. CDP Faucet can be accessed via the Portal UI or programmatically using the @coinbase/cdp-sdk . See the CDP Faucet docs for claim limits and supported assets. ​ thirdweb Faucet The thirdweb Faucet provides free testnet ETH on Base Sepolia - one claim per 24 hours. The thirdweb faucet allows developers to connect their wallet through EOA or social logins and claim Base Sepolia testnet funds.",
-        "hours. The thirdweb faucet allows developers to connect their wallet through EOA or social logins and claim Base Sepolia testnet funds. ​ Alchemy Faucet The Alchemy Faucet is a fast and reliable network faucet that allows users with a free Alchemy account to request testnet ETH on Base Sepolia. Requests to Alchemy’s Base Sepolia Faucet are limited to one claim per 24 hours. ​ Bware Labs Faucet Bw",
-        "Network Faucets - Base Documentation Skip to main content Base Documentation home page Search... ⌘ K GitHub Support Base Dashboard Base Dashboard Search... Navigation Network Information Network Faucets Get Started Chain Account Apps Agents GitHub Status Chain Stats Explorer Su",
-        "cting to Base Base-Solana Bridge Network Information Base Contracts Network Fees Block Building Transaction Finality Differences: Ethereum & Base Troubleshooting Transactions Configuration Changelog Network Faucets Flashblocks Overview App Integration Architecture FAQ Node Operators Run a Node Performance Tuning Snapshots Node Providers Troubleshooting API Reference Overview Ethereum JSON-RPC API"
+        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
+        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
+        "b Status Chain Stats Explorer Support Blog Quickstart Why Base? Deploy on Base Connecting to Base Base-Solana Bridge Network Information Base Contracts Network Fees Block Building Transaction Finality Differences: Ethereum & Base Troubleshooting Transactions Configuration Changelog Network Faucets Flashblocks Overview App Integr",
+        ":\\\"Guides\\\",\\\"pages\\\":[\\\"ai-agents/guides/check-balance\\\",\\\"ai-agents/guides/send-tokens\\\",\\\"ai-agents/guides/swap-tokens\\\",\\\"ai-agents/guides/view-history\\\",\\\"ai-agents/guides/sign-messages\\\",\\\"ai-agents/guides/batch-calls\\\",\\\"ai-agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"ai-agents/plugins/"
       ]
     },
     {
-      "id": "talent_earn",
-      "title": "Talent Earn",
-      "description": "Builder/reward campaign discovery surface",
-      "url": "https://talent.app/~/earn",
-      "decision": "hard_stop",
+      "id": "BQ-003",
+      "name": "Base Learning Resources",
+      "url": "https://docs.base.org/get-started/learning-resources",
+      "type": "learning_builder_path",
+      "upside": "Project quality and future campaign eligibility",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "classification": "auto_track_zero_cost",
+      "classificationLabel": "自动跟踪：公开/只读/零成本",
       "signals": [
-        "public_readonly:campaign",
-        "public_readonly:builder",
-        "public_readonly:app",
-        "confirmation:wallet",
-        "confirmation:connect",
-        "confirmation:share",
-        "hard_stop:reward",
-        "hard_stop:rewards"
+        {
+          "level": "hard_stop",
+          "matched": [
+            "deposit",
+            "withdraw",
+            "bridge",
+            "swap",
+            "mint",
+            "transaction",
+            "transactions",
+            "gas",
+            "payment",
+            "lp"
+          ]
+        },
+        {
+          "level": "manual_confirmation_required",
+          "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "signature",
+            "discord",
+            "x.com",
+            "github",
+            "email",
+            "register",
+            "registration",
+            "submit",
+            "account"
+          ]
+        },
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "docs",
+            "documentation",
+            "learn",
+            "learning",
+            "read",
+            "guide",
+            "quickstart",
+            "base",
+            "testnet"
+          ]
+        }
+      ],
+      "nextSafeAction": "Keep read-only monitoring and use docs to improve the project.",
+      "stopBefore": [
+        "wallet connection",
+        "message signature",
+        "transaction/gas",
+        "claim/payout/KYC",
+        "social post/follow/join",
+        "personal information submit",
+        "final Dashboard Register submit"
       ],
       "evidence": [
-        "Earn Rewards - Talent App Earn Builders Projects ⌘ K Search Talent App ⌘ K Earn Rewards Grow your builder reputation and earn rewards from leading ecosystems Rewards Campaigns View all C Live $5,000 50 Winners Jun 1-22 Celo Proof of Ship Proof of Ship is Celo's monthly build",
-        "nd DeFi A Ended May 1, 2026 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. B Ended Jan 31, 2026 Top Base Builders: January Enter the Top 500 most impactful Base builders from Jan 1 to Jan 31 and earn your share of the p",
-        "i A Ended May 1, 2026 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. B Ended Jan 31, 2026 Top Base Builders: January Enter the Top 500 most impactful Base builders from Jan 1 to Jan 31 and earn your share of the prize p",
-        "emos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. B Ended Jan 31, 2026 Top Base Builders: January Enter the Top 500 most impactful Base builders from Jan 1 to Jan 31 and earn your share of the prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last",
-        "ers Projects ⌘ K Search Talent App ⌘ K Earn Rewards Grow your builder reputation and earn rewards from leading ecosystems Rewards Campaigns View all C Live $5,000 50 Winners Jun 1-22 Celo Proof of Ship Proof of Ship is Celo's monthly builder program Start earning S Live Stacks Builder Rewards: May Stacks is the leading Bitcoin L2 for Smart Contracts, Apps, and DeFi A Ended May 1, 2026 Agents Day A",
-        "Earn Rewards - Talent App Earn Builders Projects ⌘ K Search Talent App ⌘ K Earn Rewards Grow your builder reputation and earn rewards from leading ecosystems Rewards Campaigns View all C Live $5,000 50 Winners Jun 1-22 Celo Proof of Ship Proof of Ship is Celo's monthly builder program Start earning S"
+        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
+        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
+        "hboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program Country Leads & Amb",
+        ":\\\"Guides\\\",\\\"pages\\\":[\\\"ai-agents/guides/check-balance\\\",\\\"ai-agents/guides/send-tokens\\\",\\\"ai-agents/guides/swap-tokens\\\",\\\"ai-agents/guides/view-history\\\",\\\"ai-agents/guides/sign-messages\\\",\\\"ai-agents/guides/batch-calls\\\",\\\"ai-agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"ai-agents/plugins/"
+      ]
+    },
+    {
+      "id": "BQ-004",
+      "name": "Base Builder Codes",
+      "url": "https://docs.base.org/apps/builder-codes/builder-codes",
+      "type": "builder_attribution",
+      "upside": "Future rewards attribution if app gets usage",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "classification": "hard_stop",
+      "classificationLabel": "硬停止：签名/资金/gas/收益/KYC",
+      "signals": [
+        {
+          "level": "hard_stop",
+          "matched": [
+            "deposit",
+            "withdraw",
+            "bridge",
+            "swap",
+            "mint",
+            "transaction",
+            "transactions",
+            "gas",
+            "payout",
+            "payment",
+            "lp"
+          ]
+        },
+        {
+          "level": "manual_confirmation_required",
+          "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "signature",
+            "discord",
+            "x.com",
+            "github",
+            "email",
+            "register",
+            "registration",
+            "account",
+            "profile"
+          ]
+        },
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "docs",
+            "documentation",
+            "learn",
+            "learning",
+            "public",
+            "leaderboard",
+            "read",
+            "guide",
+            "quickstart",
+            "base",
+            "testnet"
+          ]
+        }
+      ],
+      "nextSafeAction": "Read docs only; stop before payout address, app registration, API integration, or transaction attribution.",
+      "stopBefore": [
+        "wallet connection",
+        "message signature",
+        "transaction/gas",
+        "claim/payout/KYC",
+        "social post/follow/join",
+        "personal information submit",
+        "final Dashboard Register submit"
+      ],
+      "evidence": [
+        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
+        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
+        "\\\"gas-pump\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/network-faucets\\\"},{\\\"anchor\\\":\\\"Bridge\\\",\\\"icon\\\":\\\"coin\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/bridges-mainnet\\\"},{\\\"anchor\\\":\\\"Blog\\\",\\\"icon\\\":\\\"scroll\\\",\\\"href\\\":\\\"https://blog.base.dev/\\\"}]}},{\\\"tab\\\":\\\"Chain\\\",\\\"groups\\\"",
+        ":\\\"Guides\\\",\\\"pages\\\":[\\\"ai-agents/guides/check-balance\\\",\\\"ai-agents/guides/send-tokens\\\",\\\"ai-agents/guides/swap-tokens\\\",\\\"ai-agents/guides/view-history\\\",\\\"ai-agents/guides/sign-messages\\\",\\\"ai-agents/guides/batch-calls\\\",\\\"ai-agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"ai-agents/plugins/"
+      ]
+    },
+    {
+      "id": "BQ-005",
+      "name": "Base App Developers Builder Codes",
+      "url": "https://docs.base.org/apps/builder-codes/app-developers",
+      "type": "developer_integration_docs",
+      "upside": "Turn the demo into an attributable app later",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "classification": "hard_stop",
+      "classificationLabel": "硬停止：签名/资金/gas/收益/KYC",
+      "signals": [
+        {
+          "level": "hard_stop",
+          "matched": [
+            "deposit",
+            "withdraw",
+            "bridge",
+            "swap",
+            "mint",
+            "transaction",
+            "transactions",
+            "gas",
+            "payment",
+            "lp"
+          ]
+        },
+        {
+          "level": "manual_confirmation_required",
+          "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "discord",
+            "x.com",
+            "github",
+            "register",
+            "registration",
+            "account",
+            "profile",
+            "builder code",
+            "rewards"
+          ]
+        },
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "docs",
+            "documentation",
+            "learn",
+            "learning",
+            "guide",
+            "quickstart",
+            "base"
+          ]
+        }
+      ],
+      "nextSafeAction": "Read docs only; stop before wallet/client integration or onchain attribution.",
+      "stopBefore": [
+        "wallet connection",
+        "message signature",
+        "transaction/gas",
+        "claim/payout/KYC",
+        "social post/follow/join",
+        "personal information submit",
+        "final Dashboard Register submit"
+      ],
+      "evidence": [
+        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
+        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
+        "\\\"gas-pump\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/network-faucets\\\"},{\\\"anchor\\\":\\\"Bridge\\\",\\\"icon\\\":\\\"coin\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/bridges-mainnet\\\"},{\\\"anchor\\\":\\\"Blog\\\",\\\"icon\\\":\\\"scroll\\\",\\\"href\\\":\\\"https://blog.base.dev/\\\"}]}},{\\\"tab\\\":\\\"Chain\\\",\\\"groups\\\"",
+        ":\\\"Guides\\\",\\\"pages\\\":[\\\"ai-agents/guides/check-balance\\\",\\\"ai-agents/guides/send-tokens\\\",\\\"ai-agents/guides/swap-tokens\\\",\\\"ai-agents/guides/view-history\\\",\\\"ai-agents/guides/sign-messages\\\",\\\"ai-agents/guides/batch-calls\\\",\\\"ai-agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"ai-agents/plugins/"
+      ]
+    },
+    {
+      "id": "BQ-006",
+      "name": "Talent Earn",
+      "url": "https://talent.app/~/earn",
+      "type": "reward_campaigns",
+      "upside": "Free builder/reward campaign discovery",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "classification": "manual_confirmation_required",
+      "classificationLabel": "确认后继续：账号/钱包/社交/注册边界",
+      "signals": [
+        {
+          "level": "manual_confirmation_required",
+          "matched": [
+            "wallet",
+            "connect",
+            "github",
+            "profile",
+            "rewards",
+            "reward"
+          ]
+        },
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "base"
+          ]
+        }
+      ],
+      "nextSafeAction": "Monitor public campaign listings; stop before login, profile submission, social connect, payout, KYC, or paid Talent+.",
+      "stopBefore": [
+        "wallet connection",
+        "message signature",
+        "transaction/gas",
+        "claim/payout/KYC",
+        "social post/follow/join",
+        "personal information submit",
+        "final Dashboard Register submit"
+      ],
+      "evidence": [
+        "1, 2026 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. B Ended Jan 31, 2026 Top Base Builders: January Enter the Top 500 most impactful Base builders",
+        "6 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. B Ended Jan 31, 2026 Top Base Builders: January Enter the Top 500 most impactful Base builders from",
+        "1 to Jan 31 and earn your share of the prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent Rewards All time 0 Profiles 1 of 0 Page of 0 Rows Toggle theme API Blog Support FAQ T&C Privacy",
+        "ful Base builders from Jan 1 to Jan 31 and earn your share of the prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent Rewards All time 0 Profiles 1 of 0 Page of 0 Rows Toggle theme API Blog Support FAQ T&C Privacy"
       ]
     }
   ]

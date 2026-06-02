@@ -1,41 +1,57 @@
-[
-  {
-    "id": "base_dashboard",
-    "title": "Base Dashboard",
-    "description": "Builder Rewards / app attribution surface",
-    "url": "https://dashboard.base.org/",
-    "default_decision": "auto_track_zero_cost"
-  },
-  {
-    "id": "base_builder_codes",
-    "title": "Base Builder Codes",
-    "description": "App attribution and potential rewards documentation",
-    "url": "https://docs.base.org/apps/builder-codes/builder-codes"
-  },
-  {
-    "id": "base_app_developers_builder_codes",
-    "title": "Builder Codes for App Developers",
-    "description": "How registered apps get transaction attribution",
-    "url": "https://docs.base.org/apps/builder-codes/app-developers"
-  },
-  {
-    "id": "base_learn",
-    "title": "Base Learning Resources",
-    "description": "Public docs and learning resources",
-    "url": "https://docs.base.org/get-started/learning-resources",
-    "force_decision": "auto_track_zero_cost",
-    "default_decision": "auto_track_zero_cost"
-  },
-  {
-    "id": "base_faucets",
-    "title": "Base Network Faucets",
-    "description": "Testnet funds; useful for learning but requires wallet interaction",
-    "url": "https://docs.base.org/base-chain/network-information/network-faucets"
-  },
-  {
-    "id": "talent_earn",
-    "title": "Talent Earn",
-    "description": "Builder/reward campaign discovery surface",
-    "url": "https://talent.app/~/earn"
-  }
-]
+{
+  "generatedBy": "Base Quest Scout",
+  "mode": "readonly_public_sources_only",
+  "safetyBoundary": "No gas / no signature / no submit",
+  "sources": [
+    {
+      "id": "BQ-001",
+      "name": "Base Dashboard",
+      "url": "https://dashboard.base.org/",
+      "type": "app_directory",
+      "upside": "Builder Rewards / app attribution surface",
+      "classificationOverride": "manual_confirmation_required",
+      "nextSafeAction": "Monitor public app/rewards signals; stop before Dashboard Register submit."
+    },
+    {
+      "id": "BQ-002",
+      "name": "Base Network Faucets",
+      "url": "https://docs.base.org/base-chain/network-information/network-faucets",
+      "type": "testnet_faucet_index",
+      "upside": "Free testnet activity preparation",
+      "nextSafeAction": "Identify faucet options; stop before wallet address submission, login, claim, or signature."
+    },
+    {
+      "id": "BQ-003",
+      "name": "Base Learning Resources",
+      "url": "https://docs.base.org/get-started/learning-resources",
+      "type": "learning_builder_path",
+      "upside": "Project quality and future campaign eligibility",
+      "classificationOverride": "auto_track_zero_cost",
+      "nextSafeAction": "Keep read-only monitoring and use docs to improve the project."
+    },
+    {
+      "id": "BQ-004",
+      "name": "Base Builder Codes",
+      "url": "https://docs.base.org/apps/builder-codes/builder-codes",
+      "type": "builder_attribution",
+      "upside": "Future rewards attribution if app gets usage",
+      "nextSafeAction": "Read docs only; stop before payout address, app registration, API integration, or transaction attribution."
+    },
+    {
+      "id": "BQ-005",
+      "name": "Base App Developers Builder Codes",
+      "url": "https://docs.base.org/apps/builder-codes/app-developers",
+      "type": "developer_integration_docs",
+      "upside": "Turn the demo into an attributable app later",
+      "nextSafeAction": "Read docs only; stop before wallet/client integration or onchain attribution."
+    },
+    {
+      "id": "BQ-006",
+      "name": "Talent Earn",
+      "url": "https://talent.app/~/earn",
+      "type": "reward_campaigns",
+      "upside": "Free builder/reward campaign discovery",
+      "nextSafeAction": "Monitor public campaign listings; stop before login, profile submission, social connect, payout, KYC, or paid Talent+."
+    }
+  ]
+}

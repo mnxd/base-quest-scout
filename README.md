@@ -2,23 +2,26 @@
 
 Read-only Base ecosystem opportunity radar.
 
-The site classifies public Base opportunities and stops before wallet signatures, gas, transactions, KYC, payouts, reward claims, or social posting.
+This static GitHub Pages app classifies public Base opportunities and stops before wallet signatures, gas, transactions, KYC, payouts, registrations, or social posting.
 
-## Files
+## Safety Boundary
 
-- `data/seeds.json` — manually curated public URLs to monitor.
-- `scripts/build.py` — fetches public pages, classifies risk signals, and rebuilds the static page.
-- `templates/index.html` — static page template with the Base app verification meta tag.
-- `.github/workflows/update.yml` — daily rebuild plus manual workflow dispatch.
+- No wallet connection.
+- No signature.
+- No gas or transaction.
+- No claim, payout, KYC, or registration submit.
+- No external social action.
 
-## Safety model
+## Closed Loop
 
-- `auto_track_zero_cost` — public/read-only information; safe to monitor automatically.
-- `manual_confirmation_required` — account, wallet, or social boundary; ask the user first.
-- `hard_stop` — signature, funds, gas, rewards, KYC, transaction, or payout; never act automatically.
+Public discovery → risk classification → local candidate queue → human confirmation → account/wallet/social execution only after confirmation.
 
-Run locally:
+## Refresh
 
 ```bash
 python scripts/build.py
+python -m json.tool data/seeds.json >/dev/null
+python -m json.tool data/latest.json >/dev/null
 ```
+
+GitHub Actions refreshes the radar daily and can also be run manually.

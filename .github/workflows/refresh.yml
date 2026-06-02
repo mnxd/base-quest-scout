@@ -1,0 +1,31 @@
+name: Refresh Base Quest Scout
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build readonly radar
+        run: python scripts/build.py
+      - name: Validate JSON
+        run: |
+          python -m json.tool data/seeds.json >/dev/null
+          python -m json.tool data/latest.json >/dev/null
+      - name: Commit refreshed radar
+        run: |
+          git config user.name "base-quest-scout-bot"
+          git config user.email "base-quest-scout-bot@users.noreply.github.com"
+          git add index.html data/latest.json
+          git diff --cached --quiet || git commit -m "Refresh Base Quest Scout radar"
+          git push
