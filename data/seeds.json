@@ -1,0 +1,41 @@
+[
+  {
+    "id": "base_dashboard",
+    "title": "Base Dashboard",
+    "description": "Builder Rewards / app attribution surface",
+    "url": "https://dashboard.base.org/",
+    "default_decision": "auto_track_zero_cost"
+  },
+  {
+    "id": "base_builder_codes",
+    "title": "Base Builder Codes",
+    "description": "App attribution and potential rewards documentation",
+    "url": "https://docs.base.org/apps/builder-codes/builder-codes"
+  },
+  {
+    "id": "base_app_developers_builder_codes",
+    "title": "Builder Codes for App Developers",
+    "description": "How registered apps get transaction attribution",
+    "url": "https://docs.base.org/apps/builder-codes/app-developers"
+  },
+  {
+    "id": "base_learn",
+    "title": "Base Learning Resources",
+    "description": "Public docs and learning resources",
+    "url": "https://docs.base.org/get-started/learning-resources",
+    "force_decision": "auto_track_zero_cost",
+    "default_decision": "auto_track_zero_cost"
+  },
+  {
+    "id": "base_faucets",
+    "title": "Base Network Faucets",
+    "description": "Testnet funds; useful for learning but requires wallet interaction",
+    "url": "https://docs.base.org/base-chain/network-information/network-faucets"
+  },
+  {
+    "id": "talent_earn",
+    "title": "Talent Earn",
+    "description": "Builder/reward campaign discovery surface",
+    "url": "https://talent.app/~/earn"
+  }
+]
