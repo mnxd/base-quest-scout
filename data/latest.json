@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T05:49:35.526582+00:00",
+  "generatedAt": "2026-06-06T05:05:00.478817+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -164,8 +164,8 @@
             "email",
             "register",
             "registration",
-            "submit",
-            "account"
+            "account",
+            "profile"
           ]
         },
         {
@@ -374,12 +374,6 @@
             "rewards",
             "reward"
           ]
-        },
-        {
-          "level": "auto_track_zero_cost",
-          "matched": [
-            "base"
-          ]
         }
       ],
       "nextSafeAction": "Monitor public campaign listings; stop before login, profile submission, social connect, payout, KYC, or paid Talent+.",
@@ -393,10 +387,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "1, 2026 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. B Ended Jan 31, 2026 Top Base Builders: January Enter the Top 500 most impactful Base builders",
-        "6 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. B Ended Jan 31, 2026 Top Base Builders: January Enter the Top 500 most impactful Base builders from",
-        "1 to Jan 31 and earn your share of the prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent Rewards All time 0 Profiles 1 of 0 Page of 0 Rows Toggle theme API Blog Support FAQ T&C Privacy",
-        "ful Base builders from Jan 1 to Jan 31 and earn your share of the prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent Rewards All time 0 Profiles 1 of 0 Page of 0 Rows Toggle theme API Blog Support FAQ T&C Privacy"
+        "1, 2026 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent",
+        "6 Agents Day A full day of building with workshops, human mentors, demos & prizes. W Ended Jan 31, 2026 WalletConnect Builder Rewards Enter the Top 100 most active WalletConnect builders and earn a share of the weekly prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent Rewar",
+        "builders and earn a share of the weekly prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent Rewards All time 0 Profiles 1 of 0 Page of 0 Rows Toggle theme API Blog Support FAQ T&C Privacy",
+        "most active WalletConnect builders and earn a share of the weekly prize pool. Top Builders View all # Builder Profile Main Role Country GitHub Contributions Last 90d Talent Rewards All time 0 Profiles 1 of 0 Page of 0 Rows Toggle theme API Blog Support FAQ T&C Privacy"
       ]
     }
   ]
