@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T05:17:24.822016+00:00",
+  "generatedAt": "2026-06-10T05:48:38.311956+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -87,10 +87,10 @@
             "discord",
             "x.com",
             "github",
-            "email",
             "registration",
             "account",
-            "profile"
+            "profile",
+            "builder code"
           ]
         },
         {
@@ -139,17 +139,33 @@
         {
           "level": "hard_stop",
           "matched": [
+            "deposit",
+            "withdraw",
             "bridge",
+            "swap",
             "mint",
+            "transaction",
+            "transactions",
+            "gas",
+            "payment",
             "lp"
           ]
         },
         {
           "level": "manual_confirmation_required",
           "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "signature",
+            "discord",
+            "x.com",
             "github",
+            "email",
+            "register",
+            "registration",
             "account",
-            "faucet"
+            "profile"
           ]
         },
         {
@@ -159,9 +175,11 @@
             "documentation",
             "learn",
             "learning",
+            "read",
             "guide",
             "quickstart",
-            "base"
+            "base",
+            "testnet"
           ]
         }
       ],
@@ -176,10 +194,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "hboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program Country Leads & Amb",
-        "Terms of Service Cookie Policy x github reddit linkedin Powered by This documentation is built and hosted on Mintlify, a developer documentation platform self.__next_f.push([1,\"42:I[448287,[\\\"/mintlify-assets/_next/static/chunks/321c1fa0f04d01df.js?dpl=dpl_J5JR8Y39mSxuts63kZ7TxjfpXP2t\\\",\\\"/mintlify-assets/_next/static/chunks/b6",
-        "is now available at: github.com/base/learn-docs ​ Coming Soon We will be adding more learning resources to help you build on Base. Stay tuned for: Updated tutorials and guides Community-contributed resources New educational content In the meantime, check out the following resources: Base Account , Apps , and Base Chain for buil",
-        "all available pages before exploring further. Skip to main content Base Documentation home page Search... ⌘ K GitHub Support Base Dashboard Base Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build a"
+        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
+        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
+        "hboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program Regional Leads & Am",
+        ":\\\"Guides\\\",\\\"pages\\\":[\\\"ai-agents/guides/check-balance\\\",\\\"ai-agents/guides/send-tokens\\\",\\\"ai-agents/guides/swap-tokens\\\",\\\"ai-agents/guides/view-history\\\",\\\"ai-agents/guides/sign-messages\\\",\\\"ai-agents/guides/batch-calls\\\",\\\"ai-agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"ai-agents/plugins/"
       ]
     },
     {
@@ -299,9 +317,9 @@
             "register",
             "registration",
             "account",
-            "profile",
             "builder code",
-            "rewards"
+            "rewards",
+            "reward"
           ]
         },
         {
