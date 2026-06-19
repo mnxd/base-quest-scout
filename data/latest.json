@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T06:10:51.575322+00:00",
+  "generatedAt": "2026-06-19T06:30:45.192277+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -21,19 +21,12 @@
       "url": "https://dashboard.base.org/",
       "type": "app_directory",
       "upside": "Builder Rewards / app attribution surface",
-      "ok": true,
-      "status": 200,
-      "error": null,
+      "ok": false,
+      "status": 502,
+      "error": "HTTP Error 502: Bad Gateway",
       "classification": "manual_confirmation_required",
       "classificationLabel": "确认后继续：账号/钱包/社交/注册边界",
-      "signals": [
-        {
-          "level": "auto_track_zero_cost",
-          "matched": [
-            "base"
-          ]
-        }
-      ],
+      "signals": [],
       "nextSafeAction": "Monitor public app/rewards signals; stop before Dashboard Register submit.",
       "stopBefore": [
         "wallet connection",
@@ -45,7 +38,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Base Dashboard"
+        "error code: 502"
       ]
     },
     {
@@ -88,10 +81,10 @@
             "discord",
             "x.com",
             "github",
+            "email",
             "registration",
             "account",
-            "profile",
-            "builder code"
+            "profile"
           ]
         },
         {
@@ -198,7 +191,7 @@
       "evidence": [
         "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
         "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
-        "earch... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program Regional Leads & Am",
+        "earch... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a B20 Token Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program",
         ":\\\"Guides\\\",\\\"pages\\\":[\\\"ai-agents/guides/check-balance\\\",\\\"ai-agents/guides/send-tokens\\\",\\\"ai-agents/guides/swap-tokens\\\",\\\"ai-agents/guides/view-history\\\",\\\"ai-agents/guides/sign-messages\\\",\\\"ai-agents/guides/batch-calls\\\",\\\"ai-agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"ai-agents/plugins/"
       ]
     },
