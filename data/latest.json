@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T06:30:45.192277+00:00",
+  "generatedAt": "2026-06-19T06:31:28.896769+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -21,12 +21,19 @@
       "url": "https://dashboard.base.org/",
       "type": "app_directory",
       "upside": "Builder Rewards / app attribution surface",
-      "ok": false,
-      "status": 502,
-      "error": "HTTP Error 502: Bad Gateway",
+      "ok": true,
+      "status": 200,
+      "error": null,
       "classification": "manual_confirmation_required",
       "classificationLabel": "确认后继续：账号/钱包/社交/注册边界",
-      "signals": [],
+      "signals": [
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "base"
+          ]
+        }
+      ],
       "nextSafeAction": "Monitor public app/rewards signals; stop before Dashboard Register submit.",
       "stopBefore": [
         "wallet connection",
@@ -38,7 +45,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "error code: 502"
+        "Base Dashboard"
       ]
     },
     {
