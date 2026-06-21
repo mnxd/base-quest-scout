@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T06:17:52.025063+00:00",
+  "generatedAt": "2026-06-21T06:18:43.711034+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -351,7 +351,7 @@
         "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
         "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
         "\\\"gas-pump\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/network-faucets\\\"},{\\\"anchor\\\":\\\"Bridge\\\",\\\"icon\\\":\\\"coin\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/bridges-mainnet\\\"},{\\\"anchor\\\":\\\"Blog\\\",\\\"icon\\\":\\\"scroll\\\",\\\"href\\\":\\\"https://blog.base.dev/\\\"}]}},{\\\"tab\\\":\\\"Chain\\\",\\\"groups\\\"",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1b:[null,[\\\"$\\\",\\\"$L26\\\",null,{\\\"subdomain\\\":\\\"base-a060aa97\\\"}],[\\\"$\\\",\\\"$L27\\\",null,{\\\"isLivePreviewRoute\\\":false,\\\"children\\\":[\\\"$\\\",\\\"$L14\\\",null,{\\\"appearance\\\":\\\"$undefined\\\",\\\"codebl"
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1b:[null,[\\\"$\\\",\\\"$L33\\\",null,{\\\"subdomain\\\":\\\"base-a060aa97\\\"}],[\\\"$\\\",\\\"$L34\\\",null,{\\\"isLivePreviewRoute\\\":false,\\\"children\\\":[\\\"$\\\",\\\"$L14\\\",null,{\\\"appearance\\\":\\\"$undefined\\\",\\\"codebl"
       ]
     },
     {
