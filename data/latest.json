@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T05:37:47.667340+00:00",
+  "generatedAt": "2026-06-26T05:38:15.360507+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -88,10 +88,10 @@
             "discord",
             "x.com",
             "github",
+            "email",
             "registration",
             "account",
-            "profile",
-            "builder code"
+            "profile"
           ]
         },
         {
