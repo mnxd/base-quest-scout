@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T05:45:02.518055+00:00",
+  "generatedAt": "2026-06-28T05:45:21.011727+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -140,18 +140,35 @@
         {
           "level": "hard_stop",
           "matched": [
+            "deposit",
+            "withdraw",
             "bridge",
+            "swap",
             "stake",
             "mint",
-            "lp"
+            "transaction",
+            "transactions",
+            "gas",
+            "payment",
+            "lp",
+            "approve"
           ]
         },
         {
           "level": "manual_confirmation_required",
           "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "signature",
+            "sign in",
+            "discord",
+            "x.com",
             "github",
+            "submit",
             "account",
-            "faucet"
+            "builder code",
+            "rewards"
           ]
         },
         {
@@ -161,9 +178,11 @@
             "documentation",
             "learn",
             "learning",
+            "read",
             "guide",
             "quickstart",
-            "base"
+            "base",
+            "testnet"
           ]
         }
       ],
@@ -178,10 +197,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
+        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
+        "ut-and-limits\\\",\\\"base-chain/network-information/network-fees\\\",\\\"base-chain/network-information/bridging-and-withdrawals\\\"]},{\\\"group\\\":\\\"Node Operators\\\",\\\"pages\\\":[\\\"base-chain/node-operators/run-a-base-node\\\",\\\"base-chain/node-operators/performance-tuning\\\",\\\"base-chain/node-operators/snapshots\\\",\\\"base-chain/node-operators/",
         "earch... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a B20 Token Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"33:I[378486,[\\\"/mintlify-assets/_next/static/chunks/de15d9642f7c974c.js?dpl=dpl_9HTPW6R4AEfB5XWGPiZtvxE4jxzs\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_9HTPW6R4AEf",
-        "n Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"33:I[378486,[\\\"/mintlify-assets/_next/static/chunks/de15d9642f7c974c.js?dpl=dpl_9HTPW6R4AEfB5XWGPiZtvxE4jxzs\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_9HTPW6R4AEfB5XWGPiZtvxE4jxzs\\\",\\\"/mintlify-assets/_next/st",
-        "is now available at: github.com/base/learn-docs ​ Coming Soon We will be adding more learning resources to help you build on Base. Stay tuned for: Updated tutorials and guides Community-contributed resources New educational content In the meantime, check out the following resources: Base Account , Apps , and Base Chain for buil"
+        "\\\"group\\\":\\\"Guides\\\",\\\"pages\\\":[\\\"agents/guides/check-balance\\\",\\\"agents/guides/send-tokens\\\",\\\"agents/guides/swap-tokens\\\",\\\"agents/guides/view-history\\\",\\\"agents/guides/sign-messages\\\",\\\"agents/guides/batch-calls\\\",\\\"agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"agents/plugins/index\\\",{\\\"grou"
       ]
     },
     {
