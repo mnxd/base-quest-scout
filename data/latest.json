@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T05:38:15.360507+00:00",
+  "generatedAt": "2026-06-28T05:45:02.518055+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -83,15 +83,15 @@
             "wallet",
             "connect",
             "sign",
-            "signature",
             "login",
             "discord",
             "x.com",
             "github",
-            "email",
             "registration",
             "account",
-            "profile"
+            "builder code",
+            "rewards",
+            "reward"
           ]
         },
         {
@@ -120,8 +120,8 @@
       ],
       "evidence": [
         "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
-        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
-        "er Support Blog Beryl Upgrade New Overview Quickstart Why Base? Deploy on Base Connecting to Base Base-Solana Bridge Network Information Base Contracts Network Fees Block Building Transaction Finality Differences: Ethereum & Base Troubleshooting Transactions Configuration Changelog Network Faucets Flashblocks Overview App Integr",
+        "rview Core Concepts Transaction Ordering Transaction Finality Throughput and Limits Network Fees Bridging and Withdrawals Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashblocks Reference Troubleshooting Transact",
+        "rformance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashblocks Reference Troubleshooting Transactions Configuration Changelog API Reference Overview Ethereum JSON-RPC API Flashblocks API Debug API Protocol Specifications Overview Protocol Upgrades",
         "\\\"group\\\":\\\"Guides\\\",\\\"pages\\\":[\\\"agents/guides/check-balance\\\",\\\"agents/guides/send-tokens\\\",\\\"agents/guides/swap-tokens\\\",\\\"agents/guides/view-history\\\",\\\"agents/guides/sign-messages\\\",\\\"agents/guides/batch-calls\\\",\\\"agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"agents/plugins/index\\\",{\\\"grou"
       ]
     },
@@ -140,34 +140,18 @@
         {
           "level": "hard_stop",
           "matched": [
-            "deposit",
-            "withdraw",
             "bridge",
-            "swap",
             "stake",
             "mint",
-            "transaction",
-            "transactions",
-            "gas",
-            "payment",
             "lp"
           ]
         },
         {
           "level": "manual_confirmation_required",
           "matched": [
-            "wallet",
-            "connect",
-            "sign",
-            "signature",
-            "discord",
-            "x.com",
             "github",
-            "email",
-            "register",
-            "registration",
             "account",
-            "profile"
+            "faucet"
           ]
         },
         {
@@ -177,11 +161,9 @@
             "documentation",
             "learn",
             "learning",
-            "read",
             "guide",
             "quickstart",
-            "base",
-            "testnet"
+            "base"
           ]
         }
       ],
@@ -196,10 +178,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
-        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
         "earch... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a B20 Token Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program",
-        "\\\"group\\\":\\\"Guides\\\",\\\"pages\\\":[\\\"agents/guides/check-balance\\\",\\\"agents/guides/send-tokens\\\",\\\"agents/guides/swap-tokens\\\",\\\"agents/guides/view-history\\\",\\\"agents/guides/sign-messages\\\",\\\"agents/guides/batch-calls\\\",\\\"agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"agents/plugins/index\\\",{\\\"grou"
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"33:I[378486,[\\\"/mintlify-assets/_next/static/chunks/de15d9642f7c974c.js?dpl=dpl_9HTPW6R4AEfB5XWGPiZtvxE4jxzs\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_9HTPW6R4AEf",
+        "n Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"33:I[378486,[\\\"/mintlify-assets/_next/static/chunks/de15d9642f7c974c.js?dpl=dpl_9HTPW6R4AEfB5XWGPiZtvxE4jxzs\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_9HTPW6R4AEfB5XWGPiZtvxE4jxzs\\\",\\\"/mintlify-assets/_next/st",
+        "is now available at: github.com/base/learn-docs ​ Coming Soon We will be adding more learning resources to help you build on Base. Stay tuned for: Updated tutorials and guides Community-contributed resources New educational content In the meantime, check out the following resources: Base Account , Apps , and Base Chain for buil"
       ]
     },
     {
@@ -237,15 +219,15 @@
             "wallet",
             "connect",
             "sign",
-            "signature",
+            "sign in",
             "discord",
             "x.com",
             "github",
-            "email",
             "register",
-            "registration",
+            "submit",
             "account",
-            "profile"
+            "builder code",
+            "rewards"
           ]
         },
         {
@@ -260,7 +242,8 @@
             "read",
             "guide",
             "quickstart",
-            "base"
+            "base",
+            "testnet"
           ]
         }
       ],
@@ -276,8 +259,8 @@
       ],
       "evidence": [
         "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
-        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
-        "\\\"gas-pump\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/network-faucets\\\"},{\\\"anchor\\\":\\\"Bridge\\\",\\\"icon\\\":\\\"coin\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/bridges-mainnet\\\"},{\\\"anchor\\\":\\\"Blog\\\",\\\"icon\\\":\\\"scroll\\\",\\\"href\\\":\\\"https://blog.base.dev/\\\"}]}},{\\\"tab\\\":\\\"Chain\\\",\\\"groups\\\"",
+        "ut-and-limits\\\",\\\"base-chain/network-information/network-fees\\\",\\\"base-chain/network-information/bridging-and-withdrawals\\\"]},{\\\"group\\\":\\\"Node Operators\\\",\\\"pages\\\":[\\\"base-chain/node-operators/run-a-base-node\\\",\\\"base-chain/node-operators/performance-tuning\\\",\\\"base-chain/node-operators/snapshots\\\",\\\"base-chain/node-operators/",
+        "\\\"gas-pump\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/network-faucets\\\"},{\\\"anchor\\\":\\\"Bridge\\\",\\\"icon\\\":\\\"coin\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/ecosystem-bridges\\\"},{\\\"anchor\\\":\\\"Blog\\\",\\\"icon\\\":\\\"scroll\\\",\\\"href\\\":\\\"https://blog.base.dev/\\\"}]}},{\\\"tab\\\":\\\"Chain\\\",\\\"groups",
         "\\\"group\\\":\\\"Guides\\\",\\\"pages\\\":[\\\"agents/guides/check-balance\\\",\\\"agents/guides/send-tokens\\\",\\\"agents/guides/swap-tokens\\\",\\\"agents/guides/view-history\\\",\\\"agents/guides/sign-messages\\\",\\\"agents/guides/batch-calls\\\",\\\"agents/guides/x402-payments\\\"]},{\\\"group\\\":\\\"Skill \\u0026 Plugins\\\",\\\"pages\\\":[\\\"agents/plugins/index\\\",{\\\"grou"
       ]
     },
@@ -296,7 +279,6 @@
         {
           "level": "hard_stop",
           "matched": [
-            "deposit",
             "withdraw",
             "bridge",
             "stake",
@@ -348,10 +330,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "\":\\\"Bridging\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/bridging/bridges\\\",\\\"base-chain/specs/protocol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/proto",
-        "ol/bridging/deposits\\\",\\\"base-chain/specs/protocol/bridging/messengers\\\",\\\"base-chain/specs/protocol/bridging/withdrawals\\\"]},{\\\"group\\\":\\\"Consensus\\\",\\\"pages\\\":[\\\"base-chain/specs/protocol/consensus/index\\\",\\\"base-chain/specs/protocol/consensus/derivation\\\",\\\"base-chain/specs/protocol/consensus/p2p\\\",\\\"base-chain/specs/protocol",
-        "\\\"gas-pump\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/network-faucets\\\"},{\\\"anchor\\\":\\\"Bridge\\\",\\\"icon\\\":\\\"coin\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/bridges-mainnet\\\"},{\\\"anchor\\\":\\\"Blog\\\",\\\"icon\\\":\\\"scroll\\\",\\\"href\\\":\\\"https://blog.base.dev/\\\"}]}},{\\\"tab\\\":\\\"Chain\\\",\\\"groups\\\"",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1b:[null,[\\\"$\\\",\\\"$L33\\\",null,{\\\"subdomain\\\":\\\"base-a060aa97\\\"}],[\\\"$\\\",\\\"$L34\\\",null,{\\\"isLivePreviewRoute\\\":false,\\\"children\\\":[\\\"$\\\",\\\"$L14\\\",null,{\\\"appearance\\\":\\\"$undefined\\\",\\\"codebl"
+        "ut-and-limits\\\",\\\"base-chain/network-information/network-fees\\\",\\\"base-chain/network-information/bridging-and-withdrawals\\\"]},{\\\"group\\\":\\\"Node Operators\\\",\\\"pages\\\":[\\\"base-chain/node-operators/run-a-base-node\\\",\\\"base-chain/node-operators/performance-tuning\\\",\\\"base-chain/node-operators/snapshots\\\",\\\"base-chain/node-operators/",
+        "\\\"gas-pump\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/network-faucets\\\"},{\\\"anchor\\\":\\\"Bridge\\\",\\\"icon\\\":\\\"coin\\\",\\\"href\\\":\\\"https://docs.base.org/base-chain/network-information/ecosystem-bridges\\\"},{\\\"anchor\\\":\\\"Blog\\\",\\\"icon\\\":\\\"scroll\\\",\\\"href\\\":\\\"https://blog.base.dev/\\\"}]}},{\\\"tab\\\":\\\"Chain\\\",\\\"groups",
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1c:[null,[\\\"$\\\",\\\"$L34\\\",null,{\\\"subdomain\\\":\\\"base-a060aa97\\\"}],[\\\"$\\\",\\\"$L35\\\",null,{\\\"isLivePreviewRoute\\\":false,\\\"children\\\":[\\\"$\\\",\\\"$L15\\\",null,{\\\"appearance\\\":\\\"$undefined\\\",\\\"codebl",
+        "iscover all available pages before exploring further.\\\"}]]}],false,false,null,[\\\"$\\\",\\\"$L36\\\",null,{\\\"id\\\":\\\"_mintlify-banner-script\\\",\\\"strategy\\\":\\\"beforeInteractive\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"$37\\\"}}],[\\\"$\\\",\\\"$L38\\\",null,{\\\"appId\\\":\\\"$undefined\\\",\\\"autoBoot\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$L39\\\",null,{\\\"value\\\""
       ]
     },
     {
