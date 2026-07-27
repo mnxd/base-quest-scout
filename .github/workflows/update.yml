@@ -28,4 +28,14 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html data/latest.json
           git diff --cached --quiet || git commit -m "Update Base Quest Scout data"
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            git fetch origin main
+            git reset --soft origin/main
+            git add index.html data/latest.json
+            git diff --cached --quiet && exit 0
+            git commit -m "Update Base Quest Scout data"
+          done
           git push
