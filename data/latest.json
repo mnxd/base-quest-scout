@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T04:23:19.438264+00:00",
+  "generatedAt": "2026-07-31T04:40:42.170736+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -78,6 +78,7 @@
             "wallet",
             "connect",
             "login",
+            "twitter",
             "github",
             "registration",
             "account",
@@ -198,6 +199,8 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
+            "connect",
+            "sign",
             "github",
             "register",
             "account",
@@ -294,7 +297,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"38:I[237978,[\\\"/mintlify-assets/_next/static/chunks/ef1439d5f668da9d.js?dpl=dpl_4NEUQiMa9CyWDsnF4EN3qJ4nE8JU\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_4NEUQiMa9CyWDsnF4EN3qJ4nE8JU\\\",\\\"/mintlify-assets/_next/st",
+        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"3a:I[557611,[\\\"/mintlify-assets/_next/static/chunks/ef1439d5f668da9d.js?dpl=dpl_7fAqWEzbFxBVqu9G8rHYF5zKmgYN\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_7fAqWEzbFxBVqu9G8rHYF5zKmgYN\\\",\\\"/mintlify-assets/_next/st",
         "g Outside the Base App Quick Setup with web3-library Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Transaction Approach Verify Attribution Builder Codes Builder Codes for App Developers Copy page Copy page Integrate Builder Codes into your app using web3-library or Viem to attribute onchain activity. Copy page Copy page ​ Au",
         "ribution on Base Once your app is registered on base.dev , the Base App will auto-append your Builder Code to transactions its users make in your app (e.g. via your app, or the Base App’s browser). This powers your onchain analytics in base.dev and qualifies you for potential future rewards. ​ Integrating Outside the Base App If",
         "ckstart Build an app on Base Deploy on Base Guides Add notifications Migrate to a Standard Web App Accept B20 payments Verify Users Onchain Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quic"
@@ -323,7 +326,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | pdx1::1785385402-J8JKS62HMevLvViAj65S1Tc5sOuXP9VS Enable JavaScript to continue Vercel Security Checkpoint | pdx1::1785385402-J8JKS62HMevLvViA"
+        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | iad1::1785472845-DXKHtzVMGgnB0ETCi4LthqvNKH58S4BL Enable JavaScript to continue Vercel Security Checkpoint | iad1::1785472845-DXKHtzVMGgnB0ETC"
       ]
     }
   ]
