@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T04:43:11.366732+00:00",
+  "generatedAt": "2026-08-03T04:46:52.513889+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -82,7 +82,6 @@
             "login",
             "github",
             "registration",
-            "submit",
             "account",
             "faucet",
             "social login"
@@ -329,7 +328,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | sfo1::1785645794-FhjZ5bV6asalcxbbrGF7S3Emv6fcv706 Enable JavaScript to continue Vercel Security Checkpoint | sfo1::1785645794-FhjZ5bV6asalcxbb"
+        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | pdx1::1785732415-nt9x7v7Vik3tYcPkiQfHfhDGuuLyDwTx Enable JavaScript to continue Vercel Security Checkpoint | pdx1::1785732415-nt9x7v7Vik3tYcPk"
       ]
     }
   ]
