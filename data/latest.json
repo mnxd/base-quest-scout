@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T04:50:38.357464+00:00",
+  "generatedAt": "2026-08-04T04:31:21.419680+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -257,6 +257,7 @@
         {
           "level": "hard_stop",
           "matched": [
+            "mint",
             "transaction",
             "transactions",
             "payment",
@@ -281,7 +282,6 @@
           "matched": [
             "docs",
             "documentation",
-            "read",
             "guide",
             "quickstart",
             "base"
@@ -299,10 +299,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
+        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"45:I[864506,[\\\"/mintlify-assets/_next/st",
         "g Outside the Base App Quick Setup with web3-library Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Transaction Approach Verify Attribution Builder Codes Builder Codes for App Developers Copy page Copy page Integrate Builder Codes into your app using web3-library or Viem to attribute onchain activity. Copy page Copy page ​ Au",
         "ribution on Base Once your app is registered on base.dev , the Base App will auto-append your Builder Code to transactions its users make in your app (e.g. via your app, or the Base App’s browser). This powers your onchain analytics in base.dev and qualifies you for potential future rewards. ​ Integrating Outside the Base App If",
-        "ckstart Build an app on Base Deploy on Base Guides Add notifications Migrate to a Standard Web App Accept B20 payments Verify Users Onchain Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quic",
-        "ansaction type Enter the transaction or UserOperation hash Click the Check Attribution button Was this page helpful? Yes No Suggest edits Raise issue Base Builder Codes Previous Builder Codes for Wallet Developers Next ⌘ I Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie"
+        "ckstart Build an app on Base Deploy on Base Guides Add notifications Migrate to a Standard Web App Accept B20 payments Verify Users Onchain Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quic"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | iad1::1785732641-fRlRwmYg8MPPWQoBw9HBw6jV2xg6YVlA Enable JavaScript to continue Vercel Security Checkpoint | iad1::1785732641-fRlRwmYg8MPPWQoB"
+        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | sfo1::1785817884-nKRHbSxT5XoAMPxwk9lYfFWtN8EX5Qvz Enable JavaScript to continue Vercel Security Checkpoint | sfo1::1785817884-nKRHbSxT5XoAMPxw"
       ]
     }
   ]
