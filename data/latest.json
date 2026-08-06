@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T04:31:25.908958+00:00",
+  "generatedAt": "2026-08-06T04:30:50.813404+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -63,11 +63,12 @@
         {
           "level": "hard_stop",
           "matched": [
+            "deposit",
             "withdraw",
             "bridge",
-            "mint",
             "transaction",
             "transactions",
+            "gas",
             "claim",
             "lp"
           ]
@@ -77,6 +78,7 @@
           "matched": [
             "wallet",
             "connect",
+            "sign",
             "login",
             "github",
             "registration",
@@ -91,6 +93,9 @@
             "docs",
             "documentation",
             "learn",
+            "read",
+            "guide",
+            "quickstart",
             "base",
             "testnet"
           ]
@@ -107,9 +112,9 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
+        "/base-chain/network-information/network-fees\\\"},{\\\"title\\\":\\\"Bridging and Withdrawals\\\",\\\"description\\\":\\\"How deposits and withdrawals work on Base, including the standard withdrawal flow and faster bridge options.\\\",\\\"href\\\":\\\"/base-chain/network-information/bridging-and-withdrawals\\\"}]},{\\\"group\\\":\\\"Node Operators\\\",\\\"pages\\\":",
         "rview Core Concepts Transaction Ordering Transaction Finality Throughput and Limits Network Fees Bridging and Withdrawals Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashblocks Reference Troubleshooting Transact",
         "rformance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashblocks Reference Troubleshooting Transactions Configuration Changelog API Reference Overview Ethereum JSON-RPC API Flashblocks API Debug API Protocol Specifications Overview Protocol Upgrades",
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"4c:I[763509,[\\\"/mintlify-assets/_next/static/chunks/16ce374fad128624.js?dpl=dpl_3Xej2axUDvBYHWwqWzTLaemwyfXc\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_3Xej2axUDvBYHWwqWzTLaemwyfXc\\\",\\\"/mintlify-assets/_next/st",
         "GitHub Status Chain Stats Explorer Blog Beryl Upgrade New Overview Introduction Chain Overview Core Concepts Transaction Ordering Transaction Finality Throughput and Limits Network Fees Bridging and Withdrawals Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Provi"
       ]
     },
@@ -198,6 +203,7 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
+            "discord",
             "github",
             "register",
             "account",
@@ -252,10 +258,9 @@
         {
           "level": "hard_stop",
           "matched": [
-            "deposit",
+            "mint",
             "transaction",
             "transactions",
-            "claim",
             "payment",
             "lp"
           ]
@@ -265,7 +270,6 @@
           "matched": [
             "wallet",
             "connect",
-            "sign",
             "github",
             "register",
             "account",
@@ -279,8 +283,6 @@
           "matched": [
             "docs",
             "documentation",
-            "leaderboard",
-            "read",
             "guide",
             "quickstart",
             "base"
@@ -298,10 +300,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "ntract. Base Verify signs a short-lived verification your contract checks in the same transaction as a claim, deposit, or vote, so one real identity counts once and only wallets that meet your bar can participate.\\\",\\\"href\\\":\\\"/apps/guides/verify-onchain\\\"}]},{\\\"group\\\":\\\"Growth\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Rewards\\\",\\\"description\\",
+        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"3c:I[958547,[\\\"/mintlify-assets/_next/static/chunks/16ce374fad128624.js?dpl=dpl_EJZuBN59oPmUr3BdpFu7s9R3ZkWx\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_EJZuBN59oPmUr3BdpFu7s9R3ZkWx\\\",\\\"/mintlify-assets/_next/st",
         "g Outside the Base App Quick Setup with web3-library Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Transaction Approach Verify Attribution Builder Codes Builder Codes for App Developers Copy page Copy page Integrate Builder Codes into your app using web3-library or Viem to attribute onchain activity. Copy page Copy page ​ Au",
         "ribution on Base Once your app is registered on base.dev , the Base App will auto-append your Builder Code to transactions its users make in your app (e.g. via your app, or the Base App’s browser). This powers your onchain analytics in base.dev and qualifies you for potential future rewards. ​ Integrating Outside the Base App If",
-        "Base contract. Base Verify signs a short-lived verification your contract checks in the same transaction as a claim, deposit, or vote, so one real identity counts once and only wallets that meet your bar can participate.\\\",\\\"href\\\":\\\"/apps/guides/verify-onchain\\\"}]},{\\\"group\\\":\\\"Growth\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Rewards\\\",\\\"descr"
+        "ckstart Build an app on Base Deploy on Base Guides Add notifications Migrate to a Standard Web App Accept B20 payments Verify Users Onchain Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quic"
       ]
     },
     {
@@ -327,7 +329,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | cle1::1785904289-vO2zcQfz8vvkxzpWFFHUKHLQNl7hdUlf Enable JavaScript to continue Vercel Security Checkpoint | cle1::1785904289-vO2zcQfz8vvkxzpW"
+        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | sfo1::1785990654-k3Mr2l5rwn7hAf3QRxwDJAeVV7FD8sQL Enable JavaScript to continue Vercel Security Checkpoint | sfo1::1785990654-k3Mr2l5rwn7hAf3Q"
       ]
     }
   ]
