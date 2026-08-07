@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T04:32:23.855022+00:00",
+  "generatedAt": "2026-08-07T04:03:22.538810+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -63,12 +63,12 @@
         {
           "level": "hard_stop",
           "matched": [
-            "deposit",
             "withdraw",
             "bridge",
+            "stake",
+            "mint",
             "transaction",
             "transactions",
-            "gas",
             "claim",
             "lp"
           ]
@@ -78,8 +78,8 @@
           "matched": [
             "wallet",
             "connect",
-            "sign",
             "login",
+            "twitter",
             "github",
             "registration",
             "account",
@@ -93,9 +93,6 @@
             "docs",
             "documentation",
             "learn",
-            "read",
-            "guide",
-            "quickstart",
             "base",
             "testnet"
           ]
@@ -112,10 +109,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "/base-chain/network-information/network-fees\\\"},{\\\"title\\\":\\\"Bridging and Withdrawals\\\",\\\"description\\\":\\\"How deposits and withdrawals work on Base, including the standard withdrawal flow and faster bridge options.\\\",\\\"href\\\":\\\"/base-chain/network-information/bridging-and-withdrawals\\\"}]},{\\\"group\\\":\\\"Node Operators\\\",\\\"pages\\\":",
         "rview Core Concepts Transaction Ordering Transaction Finality Throughput and Limits Network Fees Bridging and Withdrawals Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashblocks Reference Troubleshooting Transact",
         "rformance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashblocks Reference Troubleshooting Transactions Configuration Changelog API Reference Overview Ethereum JSON-RPC API Flashblocks API Debug API Protocol Specifications Overview Protocol Upgrades",
-        "GitHub Status Chain Stats Explorer Blog Beryl Upgrade New Overview Introduction Chain Overview Core Concepts Transaction Ordering Transaction Finality Throughput and Limits Network Fees Bridging and Withdrawals Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Network Reference Connecting to Base Node Provi"
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1c:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Network Faucets - Base Documentation\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"Documentation for Testnet Fau",
+        "ation-name\\\",\\\"content\\\":\\\"Base Documentation\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"generator\\\",\\\"content\\\":\\\"Mintlify\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"name\\\":\\\"msapplication-config\\\",\\\"content\\\":\\\"/mintlify-assets/_mintlify/favicons/base-a060aa97/j9xtk5UEjYZZf8JS/_generated/favicon/browserconfig.xml\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"5\\\",{\\\"nam"
       ]
     },
     {
@@ -134,6 +131,7 @@
           "level": "hard_stop",
           "matched": [
             "bridge",
+            "stake",
             "lp"
           ]
         },
@@ -170,9 +168,9 @@
       ],
       "evidence": [
         "earch... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a B20 token Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program",
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes.",
         "is now available at: github.com/base/learn-docs ​ Coming Soon We will be adding more learning resources to help you build on Base. Stay tuned for: Updated tutorials and guides Community-contributed resources New educational content In the meantime, check out the following resources: Base Account , Apps , and Base Chain for buil",
-        "all available pages before exploring further. Skip to main content Base Documentation home page Search... ⌘ K GitHub Support Dashboard Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app",
-        ". ⌘ K GitHub Support Dashboard Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a B20 token Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded"
+        "pages before exploring further. Skip to main content Base Documentation home page Search... ⌘ K Ask Assistant GitHub Support Dashboard Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app"
       ]
     },
     {
@@ -190,6 +188,7 @@
         {
           "level": "hard_stop",
           "matched": [
+            "stake",
             "mint",
             "transaction",
             "transactions",
@@ -203,7 +202,6 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
-            "discord",
             "github",
             "register",
             "account",
@@ -237,10 +235,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"4e:I[91557,[\\\"/mintlify-assets/_next/static/chunks/dbec6d618ca953dc.js?dpl=dpl_4NzKiWVX1MfcZ6AAfHaSYtgcgScF\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_4NzKiWVX1Mfc",
         "hat Are Builder Codes Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
         "r Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC-8021? Additional Resources Give Feedback! Builder Codes Base Builder Codes Copy page Copy page Attribute onchain activity to your app, wallet or ag",
-        "Viem For Wallet Developers Implement the dataSuffix capability For Agent Developers Attribute your AI agent’s transactions via the API ​ Benefits Rewards: If your app drives transactions, Builder Codes let Base automatically attribute that usage back to you, unlocking rewards as the program expands. Analytics: Reliably track onc",
-        "Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC"
+        "Viem For Wallet Developers Implement the dataSuffix capability For Agent Developers Attribute your AI agent’s transactions via the API ​ Benefits Rewards: If your app drives transactions, Builder Codes let Base automatically attribute that usage back to you, unlocking rewards as the program expands. Analytics: Reliably track onc"
       ]
     },
     {
@@ -258,6 +256,7 @@
         {
           "level": "hard_stop",
           "matched": [
+            "stake",
             "mint",
             "transaction",
             "transactions",
@@ -300,10 +299,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"3c:I[958547,[\\\"/mintlify-assets/_next/static/chunks/16ce374fad128624.js?dpl=dpl_EJZuBN59oPmUr3BdpFu7s9R3ZkWx\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_EJZuBN59oPmUr3BdpFu7s9R3ZkWx\\\",\\\"/mintlify-assets/_next/st",
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"33:I[91557,[\\\"/mintlify-assets/_next/static/chunks/dbec6d618ca953dc.js?dpl=dpl_4NzKiWVX1MfcZ6AAfHaSYtgcgScF\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_4NzKiWVX1Mfc",
+        "in Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"33:I[91557,[\\\"/mintlify-assets/_next/static/chunks/dbec6d618ca953dc.js?dpl=dpl_4NzKiWVX1MfcZ6AAfHaSYtgcgScF\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_4NzKiWVX1MfcZ6AAfHaSYtgcgScF\\\",\\\"/mintlify-assets/_next/st",
         "g Outside the Base App Quick Setup with web3-library Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Transaction Approach Verify Attribution Builder Codes Builder Codes for App Developers Copy page Copy page Integrate Builder Codes into your app using web3-library or Viem to attribute onchain activity. Copy page Copy page ​ Au",
-        "ribution on Base Once your app is registered on base.dev , the Base App will auto-append your Builder Code to transactions its users make in your app (e.g. via your app, or the Base App’s browser). This powers your onchain analytics in base.dev and qualifies you for potential future rewards. ​ Integrating Outside the Base App If",
-        "ckstart Build an app on Base Deploy on Base Guides Add notifications Migrate to a Standard Web App Accept B20 payments Verify Users Onchain Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quic"
+        "ribution on Base Once your app is registered on base.dev , the Base App will auto-append your Builder Code to transactions its users make in your app (e.g. via your app, or the Base App’s browser). This powers your onchain analytics in base.dev and qualifies you for potential future rewards. ​ Integrating Outside the Base App If"
       ]
     },
     {
@@ -329,7 +328,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | sfo1::1785990747-lI4merbBlQoaOzMPoEDVOaqtvEfknSjG Enable JavaScript to continue Vercel Security Checkpoint | sfo1::1785990747-lI4merbBlQoaOzMP"
+        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | sfo1::1786075405-u5YOMj9045AxvqhOdsMqP6NiZn5FvosQ Enable JavaScript to continue Vercel Security Checkpoint | sfo1::1786075405-u5YOMj9045AxvqhO"
       ]
     }
   ]
