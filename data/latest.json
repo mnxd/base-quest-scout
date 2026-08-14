@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T03:29:50.428995+00:00",
+  "generatedAt": "2026-08-14T03:30:38.617256+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -10,9 +10,9 @@
     "account/wallet/social execution only after confirmation"
   ],
   "summary": {
-    "auto_track_zero_cost": 2,
+    "auto_track_zero_cost": 1,
     "manual_confirmation_required": 1,
-    "hard_stop": 3
+    "hard_stop": 4
   },
   "results": [
     {
@@ -313,9 +313,16 @@
       "ok": false,
       "status": 429,
       "error": "HTTP Error 429: Too Many Requests",
-      "classification": "auto_track_zero_cost",
-      "classificationLabel": "自动跟踪：公开/只读/零成本",
-      "signals": [],
+      "classification": "hard_stop",
+      "classificationLabel": "硬停止：签名/资金/gas/收益/KYC",
+      "signals": [
+        {
+          "level": "hard_stop",
+          "matched": [
+            "lp"
+          ]
+        }
+      ],
       "nextSafeAction": "Monitor public campaign listings; stop before login, profile submission, social connect, payout, KYC, or paid Talent+.",
       "stopBefore": [
         "wallet connection",
@@ -327,7 +334,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | pdx1::1786678193-uBT0xvwj30YJDS9B1InvVDLJwNZJoguE Enable JavaScript to continue Vercel Security Checkpoint | pdx1::1786678193-uBT0xvwj30YJDS9B"
+        "er Website owner? Click here to fix Vercel Security Checkpoint | sfo1::1786678242-AgUP9FHkF6A981NPQLk71EDsx50dLpXv Enable JavaScript to continue Vercel Security Checkpoint | sfo1::1786678242-AgUP9FHkF6A981NPQLk71EDsx50dLpXv"
       ]
     }
   ]
