@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T11:13:30.384696+00:00",
+  "generatedAt": "2026-08-28T12:46:42.530069+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -63,8 +63,6 @@
         {
           "level": "hard_stop",
           "matched": [
-            "withdraw",
-            "bridge",
             "mint",
             "transaction",
             "transactions",
@@ -81,6 +79,7 @@
             "github",
             "registration",
             "account",
+            "builder code",
             "faucet",
             "social login"
           ]
@@ -107,10 +106,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "nality Throughput and Limits Network Fees B20 Token Standard New Native Account Abstraction Soon Bridging and Withdrawals Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Asset Issuance Tokenized Stocks on Base Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashb",
-        "ng Asset Issuance Tokenized Stocks on Base Network Reference Connecting to Base Node Providers Base Contracts Bridges Network Faucets Flashblocks Reference Troubleshooting Transactions Configuration Changelog API Reference Overview Ethereum JSON-RPC API Flashblocks API Debug API Protocol Specifications Overview Protocol Upgrades",
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"3b:I[141180,[\\\"/mintlify-assets/_next/static/chunks/19ae1768f166fab9.js?dpl=dpl_F8uPdRSJZMhbuGqKs6S3Tq5BWdDC\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_F8uPdRSJZMhbuGqKs6S3Tq5BWdDC\\\",\\\"/mintlify-assets/_next/st",
-        "ps Agents B20 Specification GitHub Status Chain Stats Explorer Blog Introduction Chain Overview Core Concepts Transaction Ordering Transaction Finality Throughput and Limits Network Fees B20 Token Standard New Native Account Abstraction Soon Bridging and Withdrawals Node Operators Run a Node Performance Tuning Snapshots Troubles"
+        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"46:I[763509,[\\\"/mintlify-assets/_next/static/chunks/19ae1768f166fab9.js?dpl=dpl_B6YtJcyKhPfHCydCwUcSskGZka1u\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_B6YtJcyKhPfHCydCwUcSskGZka1u\\\",\\\"/mintlify-assets/_next/st",
+        "w Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Base Contracts Smart Contracts Configuration Glossary Node Operators Ru",
+        "n be accessed via the Portal UI or programmatically using the @coinbase/cdp-sdk . See the CDP Faucet docs for claim limits and supported assets. ​ thirdweb Faucet The thirdweb Faucet provides free testnet ETH on Base Sepolia - one claim per 24 hours. The thirdweb faucet allows developers to connect their wallet through EOA or so",
+        "m Ecosystem . Each wallet is restricted to receiving 0.5 ETH from this faucet every 24 hours. Was this page helpful? Yes No Suggest edits Raise issue Connect to Base Previous B20 Specification Next Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie Policy x github reddit li"
       ]
     },
     {
@@ -128,13 +127,24 @@
         {
           "level": "hard_stop",
           "matched": [
+            "withdraw",
             "bridge",
+            "swap",
+            "mint",
+            "transaction",
+            "transactions",
+            "payout",
+            "payment",
             "lp"
           ]
         },
         {
           "level": "manual_confirmation_required",
           "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "sign in",
             "github",
             "account",
             "faucet"
@@ -145,11 +155,11 @@
           "matched": [
             "docs",
             "documentation",
-            "learn",
-            "learning",
+            "read",
             "guide",
             "quickstart",
-            "base"
+            "base",
+            "testnet"
           ]
         }
       ],
@@ -164,10 +174,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "earch... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a B20 token Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded Base Services Hub Base Mentorship Program",
-        "is now available at: github.com/base/learn-docs ​ Coming Soon We will be adding more learning resources to help you build on Base. Stay tuned for: Updated tutorials and guides Community-contributed resources New educational content In the meantime, check out the following resources: Base Account , Apps , and Base Chain for buil",
-        "all available pages before exploring further. Skip to main content Base Documentation home page Search... ⌘ K GitHub Support Dashboard Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app",
-        ". ⌘ K GitHub Support Dashboard Dashboard Search... Navigation Quickstart Learning Resources Get Started Chain Account Ledgers Apps Agents Status Faucet Bridge Blog Introduction Base Quickstart Resources for AI agents Build app Launch a B20 token Launch a Token Deploy Smart Contracts Learning Resources Builder Support Get Funded"
+        "\",\\\"fund Base wallet\\\",\\\"Base testnet faucet\\\",\\\"bridge to Base\\\"],\\\"description\\\":\\\"Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet.\\\",\\\"href\\\":\\\"/get-started/get-funds\\\"},{\\\"title\\\":\\\"Make a Transaction\\\",\\\"keywords\\\":[\\\"send transaction Base\\\",\\\"Base viem example\\\"",
+        "e\\\"},{\\\"title\\\":\\\"Get Funds\\\",\\\"keywords\\\":[\\\"get funds Base\\\",\\\"fund Base wallet\\\",\\\"Base testnet faucet\\\",\\\"bridge to Base\\\"],\\\"description\\\":\\\"Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet.\\\",\\\"href\\\":\\\"/get-started/get-funds\\\"},{\\\"title\\\":\\\"Make a Transaction\\\",",
+        "sed earn product to your app with third-party protocols on Base.\\\",\\\"keywords\\\":[\\\"integrate DeFi Base\\\",\\\"0x Swap API Base\\\",\\\"Morpho Base\\\",\\\"Aave Base\\\",\\\"onchain earn product\\\"],\\\"href\\\":\\\"/get-started/integrate-defi\\\"},{\\\"title\\\":\\\"Tokenize Assets\\\",\\\"description\\\":\\\"Represent and operate real-world assets on Base with the",
+        "blecoin issuer Base\\\",\\\"fiat-backed token Base\\\"],\\\"description\\\":\\\"Run a fiat-backed stablecoin on Base with minting, compliance, and reconciliation built into the chain.\\\",\\\"href\\\":\\\"/get-started/issue-stablecoins\\\"},{\\\"title\\\":\\\"Accept Payments\\\",\\\"keywords\\\":[\\\"accept USDC payments Base\\\",\\\"EIP-3009 payments\\\",\\\"B20 payments"
       ]
     },
     {
@@ -190,7 +200,6 @@
             "transactions",
             "gas",
             "payout",
-            "payment",
             "lp"
           ]
         },
@@ -198,6 +207,7 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
+            "connect",
             "github",
             "register",
             "account",
@@ -215,8 +225,8 @@
             "leaderboard",
             "read",
             "guide",
-            "quickstart",
-            "base"
+            "base",
+            "testnet"
           ]
         }
       ],
@@ -232,9 +242,9 @@
       ],
       "evidence": [
         "hat Are Builder Codes Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
-        "r Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC-8021? Additional Resources Give Feedback! Builder Codes Base Builder Codes Copy page Copy page Attribute onchain activity to your app, wallet or ag",
-        "Viem For Wallet Developers Implement the dataSuffix capability For Agent Developers Attribute your AI agent’s transactions via the API ​ Benefits Rewards: If your app drives transactions, Builder Codes let Base automatically attribute that usage back to you, unlocking rewards as the program expands. Analytics: Reliably track onc",
-        "Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC"
+        "w Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers",
+        "Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC",
+        "to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata includes more details about the app including its name and site. Get your Builder Code by registering on base.dev . Yo"
       ]
     },
     {
@@ -252,10 +262,8 @@
         {
           "level": "hard_stop",
           "matched": [
-            "mint",
             "transaction",
             "transactions",
-            "payment",
             "lp"
           ]
         },
@@ -278,8 +286,8 @@
             "docs",
             "documentation",
             "guide",
-            "quickstart",
-            "base"
+            "base",
+            "testnet"
           ]
         }
       ],
@@ -294,10 +302,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"3a:I[141180,[\\\"/mintlify-assets/_next/static/chunks/19ae1768f166fab9.js?dpl=dpl_F8uPdRSJZMhbuGqKs6S3Tq5BWdDC\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_F8uPdRSJZMhbuGqKs6S3Tq5BWdDC\\\",\\\"/mintlify-assets/_next/st",
-        "g Outside the Base App Quick Setup with web3-library Quick Setup with Viem Using CDP Wallets Using Privy Legacy: Per-Transaction Approach Verify Attribution Builder Codes Builder Codes for App Developers Copy page Copy page Integrate Builder Codes into your app using web3-library or Viem to attribute onchain activity. Copy page Copy page ​ Au",
-        "ribution on Base Once your app is registered on base.dev , the Base App will auto-append your Builder Code to transactions its users make in your app (e.g. via your app, or the Base App’s browser). This powers your onchain analytics in base.dev and qualifies you for potential future rewards. ​ Integrating Outside the Base App If",
-        "ckstart Build an app on Base Deploy on Base Guides Add notifications Migrate to a Standard Web App Accept B20 payments Verify Users Onchain Growth Rewards Builder Codes Base Builder Codes For App Developers For Wallet Developers For Agent Developers On this page Automatic Attribution on Base Integrating Outside the Base App Quic"
+        "w Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers",
+        "ansaction type Enter the transaction or UserOperation hash Click the Check Attribution button Was this page helpful? Yes No Suggest edits Raise issue Base Builder Codes Previous Builder Codes for Wallet Developers Next Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie Poli",
+        "ging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Security Security Council for Base Avoid Malicious Flags",
+        "arted Build on Base Specifications SDKs & APIs Upgrades Status Explorer Stats Vibenet Specifications Overview Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughpu"
       ]
     },
     {
