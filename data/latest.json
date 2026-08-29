@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T12:57:03.053819+00:00",
+  "generatedAt": "2026-08-29T07:53:21.197267+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -63,25 +63,23 @@
         {
           "level": "hard_stop",
           "matched": [
+            "withdraw",
+            "bridge",
+            "swap",
             "mint",
             "transaction",
-            "transactions",
-            "claim",
+            "gas",
+            "payment",
             "lp"
           ]
         },
         {
           "level": "manual_confirmation_required",
           "matched": [
-            "wallet",
             "connect",
-            "login",
             "github",
-            "registration",
             "account",
-            "builder code",
-            "faucet",
-            "social login"
+            "faucet"
           ]
         },
         {
@@ -89,7 +87,8 @@
           "matched": [
             "docs",
             "documentation",
-            "learn",
+            "read",
+            "quickstart",
             "base",
             "testnet"
           ]
@@ -106,10 +105,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"46:I[763509,[\\\"/mintlify-assets/_next/static/chunks/19ae1768f166fab9.js?dpl=dpl_B6YtJcyKhPfHCydCwUcSskGZka1u\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_B6YtJcyKhPfHCydCwUcSskGZka1u\\\",\\\"/mintlify-assets/_next/st",
-        "w Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Base Contracts Smart Contracts Configuration Glossary Node Operators Ru",
-        "n be accessed via the Portal UI or programmatically using the @coinbase/cdp-sdk . See the CDP Faucet docs for claim limits and supported assets. ​ thirdweb Faucet The thirdweb Faucet provides free testnet ETH on Base Sepolia - one claim per 24 hours. The thirdweb faucet allows developers to connect their wallet through EOA or so",
-        "m Ecosystem . Each wallet is restricted to receiving 0.5 ETH from this faucet every 24 hours. Was this page helpful? Yes No Suggest edits Raise issue Connect to Base Previous B20 Specification Next Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie Policy x github reddit li"
+        "e Mainnet Testnet (Base Sepolia) Next Steps Quickstart Get Funds Copy page Copy page Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet. Copy page Copy page You need a small amount of ETH on Base to pay for gas, plus whatever assets your app uses (USDC is the most common",
+        "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base Services Hub",
+        "('/fonts/base-sans/BaseSans-Thin.woff2') format('woff2'); font-weight: 100; font-style: normal; font-display: swap; }\\n@font-face { font-family: 'Base Sans'; src: url('/fonts/base-sans/BaseSans-ThinItalic.woff2') format('woff2'); font-weight: 100; font-style: italic; font-display: swap; }\\n@font-face { font-family: 'Base Sans';",
+        "; margin-bottom: 0.5rem; }\\n\\n/* Paragraphs */\\np { margin-bottom: 1.25rem; }\\n\\n/* Accordion title — restore Mintlify defaults overridden by global reset */\\n[data-component-part=\\\"accordion-title\\\"] {\\n font-weight: 500 !important;\\n}\\nsummary[data-component-part=\\\"accordion-button\\\"] p {\\n margin-bottom: 0 !important;\\n}\\n\\n/"
       ]
     },
     {
@@ -175,7 +174,7 @@
       ],
       "evidence": [
         "\",\\\"fund Base wallet\\\",\\\"Base testnet faucet\\\",\\\"bridge to Base\\\"],\\\"description\\\":\\\"Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet.\\\",\\\"href\\\":\\\"/get-started/get-funds\\\"},{\\\"title\\\":\\\"Make a Transaction\\\",\\\"keywords\\\":[\\\"send transaction Base\\\",\\\"Base viem example\\\"",
-        "e\\\"},{\\\"title\\\":\\\"Get Funds\\\",\\\"keywords\\\":[\\\"get funds Base\\\",\\\"fund Base wallet\\\",\\\"Base testnet faucet\\\",\\\"bridge to Base\\\"],\\\"description\\\":\\\"Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet.\\\",\\\"href\\\":\\\"/get-started/get-funds\\\"},{\\\"title\\\":\\\"Make a Transaction\\\",",
+        "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base Services Hub",
         "sed earn product to your app with third-party protocols on Base.\\\",\\\"keywords\\\":[\\\"integrate DeFi Base\\\",\\\"0x Swap API Base\\\",\\\"Morpho Base\\\",\\\"Aave Base\\\",\\\"onchain earn product\\\"],\\\"href\\\":\\\"/get-started/integrate-defi\\\"},{\\\"title\\\":\\\"Tokenize Assets\\\",\\\"description\\\":\\\"Represent and operate real-world assets on Base with the",
         "blecoin issuer Base\\\",\\\"fiat-backed token Base\\\"],\\\"description\\\":\\\"Run a fiat-backed stablecoin on Base with minting, compliance, and reconciliation built into the chain.\\\",\\\"href\\\":\\\"/get-started/issue-stablecoins\\\"},{\\\"title\\\":\\\"Accept Payments\\\",\\\"keywords\\\":[\\\"accept USDC payments Base\\\",\\\"EIP-3009 payments\\\",\\\"B20 payments"
       ]
@@ -195,6 +194,9 @@
         {
           "level": "hard_stop",
           "matched": [
+            "deposit",
+            "withdraw",
+            "bridge",
             "mint",
             "transaction",
             "transactions",
@@ -207,9 +209,9 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
-            "connect",
             "github",
             "register",
+            "submit",
             "account",
             "builder code",
             "rewards",
@@ -225,8 +227,7 @@
             "leaderboard",
             "read",
             "guide",
-            "base",
-            "testnet"
+            "base"
           ]
         }
       ],
@@ -241,10 +242,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "hat Are Builder Codes Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
-        "w Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers",
-        "Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC",
-        "to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata includes more details about the app including its name and site. Get your Builder Code by registering on base.dev . Yo"
+        "transfers between L1 and L2 on Base.\\\",\\\"href\\\":\\\"/base-chain/specs/protocol/bridging/bridges\\\"},{\\\"title\\\":\\\"Deposits\\\",\\\"description\\\":\\\"How deposits work on Base — from user experience to the protocol-level deposit transaction type and guaranteed gas market.\\\",\\\"href\\\":\\\"/base-chain/specs/protocol/bridging/deposits\\\"},{\\\"titl",
+        "ion type and guaranteed gas market.\\\",\\\"href\\\":\\\"/base-chain/specs/protocol/bridging/deposits\\\"},{\\\"title\\\":\\\"Withdrawals\\\",\\\"description\\\":\\\"How withdrawals work on Base — the standard 3-step flow, the 7-day challenge period, faster options, and the full protocol specification.\\\",\\\"href\\\":\\\"/base-chain/specs/protocol/bridging/w",
+        "\\\":\\\"/base-chain/specs/native-account-abstraction\\\"},{\\\"group\\\":\\\"Bridging\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Standard Bridges\\\",\\\"description\\\":\\\"Specification of the standard bridge contracts enabling cross-domain ETH and ERC-20 token transfers between L1 and L2 on Base.\\\",\\\"href\\\":\\\"/base-chain/specs/protocol/bridging/bridges\\\"},{\\\"ti",
+        "hat Are Builder Codes Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in"
       ]
     },
     {
@@ -286,8 +287,7 @@
             "docs",
             "documentation",
             "guide",
-            "base",
-            "testnet"
+            "base"
           ]
         }
       ],
@@ -302,10 +302,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "w Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers",
+        "s Upgrades Status Explorer Stats Vibenet Specifications Overview B20 Native Account Abstraction Soon Bridging Transactions Flashblocks Protocol Overview Batcher Consensus Execution Proofs Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Base Contracts Smart Contracts Configuration Gl",
         "ansaction type Enter the transaction or UserOperation hash Click the Check Attribution button Was this page helpful? Yes No Suggest edits Raise issue Base Builder Codes Previous Builder Codes for Wallet Developers Next Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie Poli",
-        "ging Consensus Execution Proofs Throughput and Limits Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Security Security Council for Base Avoid Malicious Flags",
-        "arted Build on Base Specifications SDKs & APIs Upgrades Status Explorer Stats Vibenet Specifications Overview Connect to Base Get Testnet Funds Core Primitives B20 Native Account Abstraction Soon Bridging Network Fees Transactions Flashblocks Network Systems Overview Protocol Batcher Bridging Consensus Execution Proofs Throughpu"
+        "Protocol Overview Batcher Consensus Execution Proofs Reference Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Security Security Council for Base Avoid Malicious Flags",
+        "; } See all 25 lines When using useSendCalls , pass the suffix via the capabilities object. This requires the connected wallet to support the dataSuffix capability. App.tsx import { useSendCalls } from \"web3-library\" ; import { parseEther } from \"viem\" ; import { Attribution } from \"ox/erc8021\" ; const DATA_SUFFIX = Attribution . toDat"
       ]
     },
     {
