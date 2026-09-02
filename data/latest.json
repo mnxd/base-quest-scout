@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T06:15:46.375705+00:00",
+  "generatedAt": "2026-09-02T05:50:44.428770+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -165,7 +165,7 @@
       ],
       "evidence": [
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base Services Hub",
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"4d:I[529058,[\\\"/mintlify-assets/_next/static/chunks/19ae1768f166fab9.js?dpl=dpl_6Dt8CPLD8pNb3dYoku2T6ghXXEd6\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_6Dt8CPLD8pNb3dYoku2T6ghXXEd6\\\",\\\"/mintlify-assets/_next/st",
+        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"4d:I[529058,[\\\"/mintlify-assets/_next/static/chunks/19ae1768f166fab9.js?dpl=dpl_ANseHWRNfvkrS8TWUMREdQEWWY6T\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_ANseHWRNfvkrS8TWUMREdQEWWY6T\\\",\\\"/mintlify-assets/_next/st",
         "et Started Build on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base",
         "n assistant to live docs MCP server Loading docs as static files Static docs files Adding payments or onchain transactions Make x402 payments Deploying contracts Deploy on Base Building an app on Base Build a Base app ​ Example Prompts Copy these into your assistant to test that everything is working: “Deploy my ERC-20 contract"
       ]
