@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T06:02:23.048822+00:00",
+  "generatedAt": "2026-09-11T06:00:35.160812+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -168,7 +168,7 @@
       ],
       "evidence": [
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base Services Hub",
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"4c:I[529058,[\\\"/mintlify-assets/_next/static/chunks/19ae1768f166fab9.js?dpl=dpl_CwKAjcnztT8oEGPKjsujSnrvpXr8\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_CwKAjcnztT8oEGPKjsujSnrvpXr8\\\",\\\"/mintlify-assets/_next/st",
+        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"4b:I[763509,[\\\"/mintlify-assets/_next/static/chunks/8c07cf26734391f9.js?dpl=dpl_DrwAf5kpBGfHMnuxgsxqLT2uJwgW\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_DrwAf5kpBGfHMnuxgsxqLT2uJwgW\\\",\\\"/mintlify-assets/_next/st",
         "et Started Build on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base",
         "n assistant to live docs MCP server Loading docs as static files Static docs files Adding payments or onchain transactions Make x402 payments Deploying contracts Deploy on Base Building an app on Base Build a Base app ​ Example Prompts Copy these into your assistant to test that everything is working: “Deploy my ERC-20 contract"
       ]
@@ -233,7 +233,7 @@
       ],
       "evidence": [
         "hat Are Builder Codes Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
-        "rades Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning S",
+        "rades Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Nod",
         "Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC",
         "to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata includes more details about the app including its name and site. Get your Builder Code by registering on base.dev . Yo"
       ]
@@ -293,10 +293,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "ation-name\\\",\\\"content\\\":\\\"Base Documentation\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"generator\\\",\\\"content\\\":\\\"Mintlify\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"name\\\":\\\"msapplication-config\\\",\\\"content\\\":\\\"/mintlify-assets/_mintlify/favicons/base-a060aa97/j9xtk5UEjYZZf8JS/_generated/favicon/browserconfig.xml\\",
-        "rades Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning S",
+        "\\\"fallback\\\":null,\\\"children\\\":\\\"$L22\\\"}]}]}]]}]\\nb:[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/mintlify-assets/_next/static/chunks/",
+        "rades Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Nod",
         "ansaction type Enter the transaction or UserOperation hash Click the Check Attribution button Was this page helpful? Yes No Suggest edits Raise issue Base Builder Codes Previous Builder Codes for Wallet Developers Next Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie Poli",
-        "ol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Security Security Council for Base Avoid Malic"
+        "ol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Security Security Counci"
       ]
     },
     {
