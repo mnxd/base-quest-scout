@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T06:23:57.962368+00:00",
+  "generatedAt": "2026-09-15T06:10:12.892016+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -105,7 +105,7 @@
       "evidence": [
         "e Mainnet Testnet (Base Sepolia) Next Steps Quickstart Get Funds Copy page Copy page Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet. Copy page Copy page You need a small amount of ETH on Base to pay for gas, plus whatever assets your app uses (USDC is the most common",
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base Services Hub",
-        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"5b:I[448287,[\\\"/mintlify-assets/_next/static/chunks/8c07cf26734391f9.js?dpl=dpl_2HYf5W6KtfBX3ttopC1S1u9yW2mq\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_2HYf5W6KtfBX3ttopC1S1u9yW2mq\\\",\\\"/mintlify-assets/_next/st",
+        "Privacy Policy Terms of Service Cookie Policy x github reddit linkedin self.__next_f.push([1,\"5b:I[448287,[\\\"/mintlify-assets/_next/static/chunks/8c07cf26734391f9.js?dpl=dpl_6tjR9zieQET3aGrVKGSVpuvtF96E\\\",\\\"/mintlify-assets/_next/static/chunks/b664fc8bb1e7ab0d.js?dpl=dpl_6tjR9zieQET3aGrVKGSVpuvtF96E\\\",\\\"/mintlify-assets/_next/st",
         "et Started Build on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base"
       ]
     },
@@ -139,7 +139,6 @@
             "connect",
             "sign",
             "sign in",
-            "twitter",
             "github"
           ]
         },
@@ -167,7 +166,7 @@
       ],
       "evidence": [
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base Services Hub",
-        "ation-name\\\",\\\"content\\\":\\\"Base Documentation\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"generator\\\",\\\"content\\\":\\\"Mintlify\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"name\\\":\\\"msapplication-config\\\",\\\"content\\\":\\\"/mintlify-assets/_mintlify/favicons/base-a060aa97/j9xtk5UEjYZZf8JS/_generated/favicon/browserconfig.xml\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"5\\\",{\\\"nam",
+        "\"Base Documentation\\\",\\\"url\\\":\\\"https://docs.base.org\\\",\\\"logo\\\":{\\\"@type\\\":\\\"ImageObject\\\",\\\"url\\\":\\\"https://mintcdn.com/base-a060aa97/9LdNiQhE-qTXRlrp/logo/logo_light.svg?fit=max\\u0026auto=format\\u0026n=9LdNiQhE-qTXRlrp\\u0026q=85\\u0026s=346ebfbc4cbad6fa96a3466bb7f5aa3a\\\"}},{\\\"@type\\\":\\\"WebSite\\\",\\\"@id\\\":\\\"https://docs.base.org",
         "et Started Build on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Base",
         "n assistant to live docs MCP server Loading docs as static files Static docs files Adding payments or onchain transactions Make x402 payments Deploying contracts Deploy on Base Building an app on Base Build a Base app ​ Example Prompts Copy these into your assistant to test that everything is working: “Deploy my ERC-20 contract"
       ]
@@ -231,9 +230,9 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "hat Are Builder Codes Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
+        ". Copy page Copy page Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
         "rades Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Nod",
-        "Are Builder Codes Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC",
+        "lity On this page Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC",
         "to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata includes more details about the app including its name and site. Get your Builder Code by registering on base.dev . Yo"
       ]
     },
@@ -292,7 +291,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "f.__next_f.push([1,\"8:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[\\\"$L19\\\",[[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/mintlify-assets/_next/static/chunks/dd4442224a5d78fb.js?dpl=dpl_2HYf5W6KtfBX3ttopC1S1u9yW2mq\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-1\\\",{\\\"src\\\":\\\"/mintlify-assets/_next/static/chunks/0eb8",
+        "f.__next_f.push([1,\"8:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[\\\"$L19\\\",[[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/mintlify-assets/_next/static/chunks/2922d63bc891d5ed.js?dpl=dpl_6tjR9zieQET3aGrVKGSVpuvtF96E\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-1\\\",{\\\"src\\\":\\\"/mintlify-assets/_next/static/chunks/0eb8",
         "rades Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Nod",
         "ansaction type Enter the transaction or UserOperation hash Click the Check Attribution button Was this page helpful? Yes No Suggest edits Raise issue Base Builder Codes Previous Builder Codes for Wallet Developers Next Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie Poli",
         "ol B20 Native Account Abstraction Soon Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Node Performance Tuning Snapshots Troubleshooting Security Security Counci"
