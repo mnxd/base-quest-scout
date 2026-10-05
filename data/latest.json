@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T07:00:07.444635+00:00",
+  "generatedAt": "2026-10-05T07:02:45.369260+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -21,12 +21,19 @@
       "url": "https://dashboard.base.org/",
       "type": "app_directory",
       "upside": "Builder Rewards / app attribution surface",
-      "ok": false,
-      "status": 502,
-      "error": "HTTP Error 502: Bad Gateway",
+      "ok": true,
+      "status": 200,
+      "error": null,
       "classification": "manual_confirmation_required",
       "classificationLabel": "确认后继续：账号/钱包/社交/注册边界",
-      "signals": [],
+      "signals": [
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "base"
+          ]
+        }
+      ],
       "nextSafeAction": "Monitor public app/rewards signals; stop before Dashboard Register submit.",
       "stopBefore": [
         "wallet connection",
@@ -38,7 +45,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "error code: 502"
+        "Base Dashboard"
       ]
     },
     {
@@ -100,8 +107,8 @@
       "evidence": [
         "e Mainnet Testnet (Base Sepolia) Next Steps Quickstart Get Funds Copy page Copy page Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet. Copy page Copy page You need a small amount of ETH on Base to pay for gas, plus whatever assets your app uses (USDC is the most common",
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem F",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"4f:I[859465,[\\\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_GVtXmXHpaP6",
-        "n Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"4f:I[859465,[\\\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\\\",\\\"/mintlify-assets/_next/st"
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"4f:I[859465,[\\\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_AdgF69PdgrU",
+        "n Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"4f:I[859465,[\\\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\\\",\\\"/mintlify-assets/_next/st"
       ]
     },
     {
@@ -182,9 +189,6 @@
         {
           "level": "hard_stop",
           "matched": [
-            "deposit",
-            "withdraw",
-            "bridge",
             "stake",
             "mint",
             "transaction",
@@ -198,10 +202,8 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
-            "sign",
             "github",
             "register",
-            "submit",
             "account",
             "builder code",
             "rewards",
@@ -232,10 +234,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "tween L1 and L2 on Base.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/standard-bridges\\\"},{\\\"title\\\":\\\"Deposits\\\",\\\"description\\\":\\\"How deposits work on Base — from user experience to the protocol-level deposit transaction type and guaranteed gas market.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/deposits\\\"},{\\\"t",
-        "type and guaranteed gas market.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/deposits\\\"},{\\\"title\\\":\\\"Withdrawals\\\",\\\"description\\\":\\\"How withdrawals work on Base — the standard 3-step flow, the finalization window (5 days, or 1 day with TEE and ZK proofs), faster options, and the full protocol specification.\\\",\\\"href\\\":",
-        "cifications/base-protocol/execution/preinstalls\\\"}]},{\\\"group\\\":\\\"Bridging\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Standard Bridges\\\",\\\"description\\\":\\\"Specification of the standard bridge contracts enabling cross-domain ETH and ERC-20 token transfers between L1 and L2 on Base.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/standard-brid",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1a:[\\\"$\\\",\\\"$L31\\\",null,{\\\"scopedNav\\\":{\\\"global\\\":null,\\\"tabs\\\":[{\\\"tab\\\":\\\"Get Started\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Get Started\\\",\\\"href\\\":\\\"/get-started/base\\\"}]},{\\\"tab\\\":\\\"Build on Base\\\""
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"35:I[864506,[\\\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_AdgF69PdgrU",
+        ". Copy page Copy page Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
+        "es Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Vibenet Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Nod",
+        "lity On this page Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC"
       ]
     },
     {
@@ -294,8 +296,8 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"J85GtFWu0nxJ1AGuUkLZj\\\",\\\"p\\\":\\\"/mintlify-assets\\\",\\\"c\\\":[\\\"\\\",\\\"_sites\\\",\\\"base-a060aa97\\\",\\\"specifications\\\",\\\"builder-codes\\\",\\\"for-app-developers\\\"],\\\"i\\\":false,\\\"",
-        "ng AI and may contain mistakes. self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"J85GtFWu0nxJ1AGuUkLZj\\\",\\\"p\\\":\\\"/mintlify-assets\\\",\\\"c\\\":[\\\"\\\",\\\"_sites\\\",\\\"base-a060aa97\\\",\\\"specifications\\\",\\\"builder-codes\\\",\\\"for-app-developers\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"%5Fsites\\\",{\\\"children\\\":[[\\\"subdomain\\\",\\\"base-a060aa97\\",
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"rqYbFb6eANFKMxK-ethr5\\\",\\\"p\\\":\\\"/mintlify-assets\\\",\\\"c\\\":[\\\"\\\",\\\"_sites\\\",\\\"base-a060aa97\\\",\\\"specifications\\\",\\\"builder-codes\\\",\\\"for-app-developers\\\"],\\\"i\\\":false,\\\"",
+        "ng AI and may contain mistakes. self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"rqYbFb6eANFKMxK-ethr5\\\",\\\"p\\\":\\\"/mintlify-assets\\\",\\\"c\\\":[\\\"\\\",\\\"_sites\\\",\\\"base-a060aa97\\\",\\\"specifications\\\",\\\"builder-codes\\\",\\\"for-app-developers\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"%5Fsites\\\",{\\\"children\\\":[[\\\"subdomain\\\",\\\"base-a060aa97\\",
         "es Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Vibenet Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Nod",
         "ansaction type Enter the transaction or UserOperation hash Click the Check Attribution button Was this page helpful? Yes No Suggest edits Raise issue Base Builder Codes Previous Builder Codes for Wallet Developers Next Base Documentation home page x github reddit linkedin Base.org Blog Privacy Policy Terms of Service Cookie Poli"
       ]
