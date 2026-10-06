@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:09:24.701316+00:00",
+  "generatedAt": "2026-10-06T07:34:57.284931+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -189,6 +189,9 @@
         {
           "level": "hard_stop",
           "matched": [
+            "deposit",
+            "withdraw",
+            "bridge",
             "stake",
             "mint",
             "transaction",
@@ -202,8 +205,10 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
+            "sign",
             "github",
             "register",
+            "submit",
             "account",
             "builder code",
             "rewards",
@@ -234,10 +239,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"35:I[864506,[\\\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_AdgF69PdgrU",
-        ". Copy page Copy page Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
-        "es Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Native Account Abstraction Vibenet Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Node Operators Run a Nod",
-        "lity On this page Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC"
+        "tween L1 and L2 on Base.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/standard-bridges\\\"},{\\\"title\\\":\\\"Deposits\\\",\\\"description\\\":\\\"How deposits work on Base — from user experience to the protocol-level deposit transaction type and guaranteed gas market.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/deposits\\\"},{\\\"t",
+        "type and guaranteed gas market.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/deposits\\\"},{\\\"title\\\":\\\"Withdrawals\\\",\\\"description\\\":\\\"How withdrawals work on Base — the standard 3-step flow, the finalization window (5 days, or 1 day with TEE and ZK proofs), faster options, and the full protocol specification.\\\",\\\"href\\\":",
+        "cifications/base-protocol/execution/preinstalls\\\"}]},{\\\"group\\\":\\\"Bridging\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Standard Bridges\\\",\\\"description\\\":\\\"Specification of the standard bridge contracts enabling cross-domain ETH and ERC-20 token transfers between L1 and L2 on Base.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/standard-brid",
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1a:[\\\"$\\\",\\\"$L31\\\",null,{\\\"scopedNav\\\":{\\\"global\\\":null,\\\"tabs\\\":[{\\\"tab\\\":\\\"Get Started\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Get Started\\\",\\\"href\\\":\\\"/get-started/base\\\"}]},{\\\"tab\\\":\\\"Build on Base\\\""
       ]
     },
     {
