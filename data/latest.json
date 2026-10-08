@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:17:47.650874+00:00",
+  "generatedAt": "2026-10-08T07:25:34.040330+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -65,13 +65,11 @@
           "matched": [
             "withdraw",
             "bridge",
-            "swap",
             "stake",
             "mint",
             "transaction",
             "transactions",
             "gas",
-            "payout",
             "payment",
             "lp"
           ]
@@ -79,9 +77,10 @@
         {
           "level": "manual_confirmation_required",
           "matched": [
-            "wallet",
             "connect",
             "sign",
+            "signature",
+            "twitter",
             "github",
             "account",
             "faucet"
@@ -111,8 +110,8 @@
       "evidence": [
         "e Mainnet Testnet (Base Sepolia) Next Steps Quickstart Get Funds Copy page Copy page Fund an address on Base: withdraw from a Coinbase account, bridge from another chain, or use a testnet faucet. Copy page Copy page You need a small amount of ETH on Base to pay for gas, plus whatever assets your app uses (USDC is the most common",
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem F",
-        "sed earn product to your app with third-party protocols on Base.\\\",\\\"keywords\\\":[\\\"integrate DeFi Base\\\",\\\"0x Swap API Base\\\",\\\"Morpho Base\\\",\\\"Aave Base\\\",\\\"onchain earn product\\\"],\\\"href\\\":\\\"/get-started/integrate-defi\\\"},{\\\"title\\\":\\\"Tokenize Assets\\\",\\\"description\\\":\\\"Represent and operate real-world assets on Base with the",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1a:[\\\"$\\\",\\\"$L4c\\\",null,{\\\"scopedNav\\\":{\\\"global\\\":null,\\\"tabs\\\":[{\\\"tab\\\":\\\"Get Started\\\",\\\"groups\\\":[{\\\"group\\\":\\\"Quickstart\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Base\\\",\\\"description\\\":\\\"The blockch"
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1f:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Get Funds - Base Documentation\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"Fund an address on Base: withdraw f",
+        "ation-name\\\",\\\"content\\\":\\\"Base Documentation\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"generator\\\",\\\"content\\\":\\\"Mintlify\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"name\\\":\\\"msapplication-config\\\",\\\"content\\\":\\\"/mintlify-assets/_mintlify/favicons/base-a060aa97/j9xtk5UEjYZZf8JS/_generated/favicon/browserconfig.xml\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"5\\\",{\\\"nam"
       ]
     },
     {
@@ -132,6 +131,7 @@
           "matched": [
             "bridge",
             "stake",
+            "mint",
             "transaction",
             "transactions",
             "payment",
@@ -172,9 +172,9 @@
       ],
       "evidence": [
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem F",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"2b:[\\\"$\\\",\\\"$L32\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L33\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L34\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L35\\\",null,{\\\"pageListDataMap\\\":{},\\\"children\\\":[\\\"$\\\",\\\"$L36\\\",null,{\\",
-        "et Started Build on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base",
-        "ransaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem Fund Builder Stack Resources Builders Creators References Base Protocol SDKs & APIs On this page Qui"
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"3b:I[378896,[\\\"/mintlify-assets/_next/static/chunks/0ea0e179f06dc225.js?dpl=dpl_2CvvGUQCYY8dUkQ58o7MAJQr4cwK\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_2CvvGUQCYY8",
+        "n Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"3b:I[378896,[\\\"/mintlify-assets/_next/static/chunks/0ea0e179f06dc225.js?dpl=dpl_2CvvGUQCYY8dUkQ58o7MAJQr4cwK\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_2CvvGUQCYY8dUkQ58o7MAJQr4cwK\\\",\\\"/mintlify-assets/_next/st",
+        "et Started Build on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base"
       ]
     },
     {
@@ -245,7 +245,7 @@
         "tween L1 and L2 on Base.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/standard-bridges\\\"},{\\\"title\\\":\\\"Deposits\\\",\\\"description\\\":\\\"How deposits work on Base — from user experience to the protocol-level deposit transaction type and guaranteed gas market.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/deposits\\\"},{\\\"t",
         "type and guaranteed gas market.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/deposits\\\"},{\\\"title\\\":\\\"Withdrawals\\\",\\\"description\\\":\\\"How withdrawals work on Base — the standard 3-step flow, the finalization window (5 days, or 1 day with TEE and ZK proofs), faster options, and the full protocol specification.\\\",\\\"href\\\":",
         "cifications/base-protocol/execution/preinstalls\\\"}]},{\\\"group\\\":\\\"Bridging\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Standard Bridges\\\",\\\"description\\\":\\\"Specification of the standard bridge contracts enabling cross-domain ETH and ERC-20 token transfers between L1 and L2 on Base.\\\",\\\"href\\\":\\\"/specifications/base-protocol/bridging/standard-brid",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1a:[\\\"$\\\",\\\"$L31\\\",null,{\\\"scopedNav\\\":{\\\"global\\\":null,\\\"tabs\\\":[{\\\"tab\\\":\\\"Get Started\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Get Started\\\",\\\"href\\\":\\\"/get-started/base\\\"}]},{\\\"tab\\\":\\\"Build on Base\\\""
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"1b:[\\\"$\\\",\\\"$L32\\\",null,{\\\"scopedNav\\\":{\\\"global\\\":null,\\\"tabs\\\":[{\\\"tab\\\":\\\"Get Started\\\",\\\"pages\\\":[{\\\"title\\\":\\\"Get Started\\\",\\\"href\\\":\\\"/get-started/base\\\"}]},{\\\"tab\\\":\\\"Build on Base\\\""
       ]
     },
     {
