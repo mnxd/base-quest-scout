@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T06:22:31.833772+00:00",
+  "generatedAt": "2026-10-28T06:51:22.416531+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -90,6 +90,7 @@
           "matched": [
             "docs",
             "documentation",
+            "read",
             "quickstart",
             "base",
             "testnet"
@@ -171,8 +172,8 @@
       ],
       "evidence": [
         "uild on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base Ecosystem F",
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"3f:I[604780,[\\\"/mintlify-assets/_next/static/chunks/3a8ac382f071e8f9.js?dpl=dpl_5Fjw28gBvBxr44VDYorcFKph8FNx\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_5Fjw28gBvBx",
-        "n Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"3f:I[604780,[\\\"/mintlify-assets/_next/static/chunks/3a8ac382f071e8f9.js?dpl=dpl_5Fjw28gBvBxr44VDYorcFKph8FNx\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_5Fjw28gBvBxr44VDYorcFKph8FNx\\\",\\\"/mintlify-assets/_next/st",
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"42:I[330080,[\\\"/mintlify-assets/_next/static/chunks/3a8ac382f071e8f9.js?dpl=dpl_663fY7xFSTyQdEMfnEL96zxH53Nk\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a",
+        "n Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"42:I[330080,[\\\"/mintlify-assets/_next/static/chunks/3a8ac382f071e8f9.js?dpl=dpl_663fY7xFSTyQdEMfnEL96zxH53Nk\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a",
         "et Started Build on Base Specifications SDKs & APIs Upgrades Quickstart Base Connect to Base Get Funds Make a Transaction Bridge to Base Solutions Integrate DeFi Tokenize Assets Issue a Stablecoin Accept Payments Private Transactions Coding Agents Resources for AI Agents MCP Server Static Docs Files Get Funding Base Batches Base"
       ]
     },
@@ -236,7 +237,7 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"3d:I[557611,[\\\"/mintlify-assets/_next/static/chunks/3a8ac382f071e8f9.js?dpl=dpl_5Fjw28gBvBxr44VDYorcFKph8FNx\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_5Fjw28gBvBx",
+        "f Service Cookie Policy x github reddit linkedin Assistant Responses are generated using AI and may contain mistakes. self.__next_f.push([1,\"3d:I[557611,[\\\"/mintlify-assets/_next/static/chunks/3a8ac382f071e8f9.js?dpl=dpl_663fY7xFSTyQdEMfnEL96zxH53Nk\\\",\\\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_663fY7xFSTy",
         ". Copy page Copy page Base Builder Codes are an ERC-721 NFT collection where unique codes (e.g. “abc123”) are minted to help identify builders onchain. Each code has associated metadata. Onchain metadata primarily includes a “payout address” where each code declares where potential rewards should be sent to. Offchain metadata in",
         "cifications SDKs & APIs Upgrades Status Explorer Stats Vibenet Specifications Overview Base Protocol B20 Base Transactions Everest Transactions Flashblocks Builder Codes Overview For App Developers For Wallet Developers For Agent Developers Validity Transactions Reference Base Contracts Smart Contracts Configuration Glossary Nod",
         "page Back to top Integration Guides Benefits FAQ Do I Need to Modify My Smart Contracts? How Much Additional Gas Do Builder Codes Cost? Will Builder Codes Expose My Identity? Can I Use ERC-8021 with Externally Owned Accounts (EOAs)? How Do I Verify That My Transaction Was Properly Attributed? Which Wallets Currently Support ERC"
