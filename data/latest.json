@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T07:14:38.343141+00:00",
+  "generatedAt": "2026-10-31T06:59:37.198310+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -73,7 +73,8 @@
             "gas",
             "claim",
             "payment",
-            "lp"
+            "lp",
+            "approve"
           ]
         },
         {
@@ -142,7 +143,8 @@
             "transaction",
             "transactions",
             "payment",
-            "lp"
+            "lp",
+            "approve"
           ]
         },
         {
