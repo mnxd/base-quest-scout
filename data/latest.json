@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T07:38:40.661784+00:00",
+  "generatedAt": "2026-11-15T07:52:02.842324+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -73,7 +73,8 @@
             "gas",
             "claim",
             "payment",
-            "lp"
+            "lp",
+            "approve"
           ]
         },
         {
@@ -285,7 +286,8 @@
             "stake",
             "mint",
             "transaction",
-            "transactions"
+            "transactions",
+            "lp"
           ]
         },
         {
@@ -327,10 +329,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "hain (step 3). Record the transaction hash and the action it performs in your app (for example, mint, swap or deposit) at submit time. The hash is what links an in-app action to its onchain outcome. resolve-call-bundle.ts const { id } = await provider . request ({ method: \"wallet_sendCalls\" , params: [{ version: \"2.0.0\" , chainI",
-        "eipt onchain (step 3). Record the transaction hash and the action it performs in your app (for example, mint, swap or deposit) at submit time. The hash is what links an in-app action to its onchain outcome. resolve-call-bundle.ts const { id } = await provider . request ({ method: \"wallet_sendCalls\" , params: [{ version: \"2.0.0\"",
+        "hain (step 3). Record the transaction hash and the action it performs in your app (for example, mint, swap or deposit) at submit time. The hash is what links an in-app action to its onchain outcome. resolve-call-bundle.ts const { id } = await provider.request({ method: \"wallet_sendCalls\" , params: [{ version: \"2.0.0\" , chainId:",
+        "eipt onchain (step 3). Record the transaction hash and the action it performs in your app (for example, mint, swap or deposit) at submit time. The hash is what links an in-app action to its onchain outcome. resolve-call-bundle.ts const { id } = await provider.request({ method: \"wallet_sendCalls\" , params: [{ version: \"2.0.0\" , c",
         "s before exploring further. Skip to main content Assistant Responses are generated using AI and may contain mistakes. Base Documentation home page Search... ⌘ K Ask Assistant ⌘ I GitHub Support Dashboard Dashboard Search... Navigation Builder Codes Builder Codes for App Developers Get Started Build on Base Specifications SDKs &",
-        "\" , value: parseEther ( \"0.01\" ), dataSuffix: DATA_SUFFIX , }) } > Send ETH </ button > ); } See all 21 lines MintButton.tsx import { useWriteContract } from \"web3-library\" ; import { abi } from \"./abi\" ; import { DATA_SUFFIX } from \"./attribution\" ; function MintButton () { const { writeContract } = useWriteContract (); return ( < but"
+        "79c8\" , value: parseEther( \"0.01\" ), dataSuffix: DATA_SUFFIX, }) } > Send ETH </button> ); } See all 21 lines MintButton.tsx import { useWriteContract } from \"web3-library\" ; import { abi } from \"./abi\" ; import { DATA_SUFFIX } from \"./attribution\" ; function MintButton() { const { writeContract } = useWriteContract(); return ( <button"
       ]
     },
     {
