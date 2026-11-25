@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T11:03:31.333367+00:00",
+  "generatedAt": "2026-11-25T09:51:31.524617+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -10,9 +10,9 @@
     "account/wallet/social execution only after confirmation"
   ],
   "summary": {
-    "auto_track_zero_cost": 3,
+    "auto_track_zero_cost": 2,
     "manual_confirmation_required": 1,
-    "hard_stop": 2
+    "hard_stop": 3
   },
   "results": [
     {
@@ -281,12 +281,51 @@
       "url": "https://docs.base.org/apps/builder-codes/app-developers",
       "type": "developer_integration_docs",
       "upside": "Turn the demo into an attributable app later",
-      "ok": false,
-      "status": null,
-      "error": "The read operation timed out",
-      "classification": "auto_track_zero_cost",
-      "classificationLabel": "自动跟踪：公开/只读/零成本",
-      "signals": [],
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "classification": "hard_stop",
+      "classificationLabel": "硬停止：签名/资金/gas/收益/KYC",
+      "signals": [
+        {
+          "level": "hard_stop",
+          "matched": [
+            "deposit",
+            "swap",
+            "stake",
+            "mint",
+            "transaction",
+            "transactions"
+          ]
+        },
+        {
+          "level": "manual_confirmation_required",
+          "matched": [
+            "wallet",
+            "connect",
+            "sign",
+            "signature",
+            "github",
+            "register",
+            "submit",
+            "account",
+            "builder code",
+            "rewards",
+            "reward"
+          ]
+        },
+        {
+          "level": "auto_track_zero_cost",
+          "matched": [
+            "docs",
+            "documentation",
+            "public",
+            "read",
+            "guide",
+            "base"
+          ]
+        }
+      ],
       "nextSafeAction": "Read docs only; stop before wallet/client integration or onchain attribution.",
       "stopBefore": [
         "wallet connection",
@@ -298,7 +337,10 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "No public text extracted."
+        "hain (step 3). Record the transaction hash and the action it performs in your app (for example, mint, swap or deposit) at submit time. The hash is what links an in-app action to its onchain outcome. resolve-call-bundle.ts const { id } = await provider . request ({ method: \"wallet_sendCalls\" , params: [{ version: \"2.0.0\" , chainI",
+        "eipt onchain (step 3). Record the transaction hash and the action it performs in your app (for example, mint, swap or deposit) at submit time. The hash is what links an in-app action to its onchain outcome. resolve-call-bundle.ts const { id } = await provider . request ({ method: \"wallet_sendCalls\" , params: [{ version: \"2.0.0\"",
+        "s before exploring further. Skip to main content Assistant Responses are generated using AI and may contain mistakes. Base Documentation home page Search... ⌘ K Ask Assistant ⌘ I GitHub Support Dashboard Dashboard Search... Navigation Builder Codes Builder Codes for App Developers Get Started Build on Base Specifications SDKs &",
+        "\" , value: parseEther ( \"0.01\" ), dataSuffix: DATA_SUFFIX , }) } > Send ETH </ button > ); } See all 21 lines MintButton.tsx import { useWriteContract } from \"web3-library\" ; import { abi } from \"./abi\" ; import { DATA_SUFFIX } from \"./attribution\" ; function MintButton () { const { writeContract } = useWriteContract (); return ( < but"
       ]
     },
     {
