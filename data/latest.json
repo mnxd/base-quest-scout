@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T09:43:46.024117+00:00",
+  "generatedAt": "2026-11-28T08:54:30.605752+00:00",
   "mode": "readonly_public_sources_only",
   "safetyBoundary": "No gas / no signature / no submit",
   "closedLoop": [
@@ -31,12 +31,15 @@
           "level": "manual_confirmation_required",
           "matched": [
             "wallet",
+            "sign",
+            "sign in",
             "account"
           ]
         },
         {
           "level": "auto_track_zero_cost",
           "matched": [
+            "read",
             "base"
           ]
         }
@@ -52,7 +55,9 @@
         "final Dashboard Register submit"
       ],
       "evidence": [
-        "Base Dashboard Returning user? Continue with Coinbase Wallet (previously Base Account)."
+        "Base Dashboard Returning user? Continue with Coinbase Wallet (previously Base Account). Base Dashboard Sign in to track your impact on Base. Sign In OR Continue with Coinbase Wallet We'll create an account for you if you don't already have one. Loading Support Terms Privacy",
+        "your impact on Base. Sign In OR Continue with Coinbase Wallet We'll create an account for you if you don't already have one. Loading Support Terms Privacy",
+        "Base Dashboard Returning user? Continue with Coinbase Wallet (previously Base Account). Base Dashboard Sign in to track your impact on Base. Sign In OR Continue with Coinbase Wallet We'll create an account for you if you"
       ]
     },
     {
